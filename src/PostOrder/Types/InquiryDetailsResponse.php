@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $claimAmount
+ * @property \SONHH\eBaySDK\PostOrder\Types\Amount $claimAmount
  * @property string $extTransactionId
- * @property \DTS\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator
- * @property \DTS\eBaySDK\PostOrder\Types\InquiryDetails $inquiryDetails
- * @property \DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse $inquiryHistoryDetails
+ * @property \SONHH\eBaySDK\PostOrder\Enums\UserPartyEnum $initiator
+ * @property \SONHH\eBaySDK\PostOrder\Types\InquiryDetails $inquiryDetails
+ * @property \SONHH\eBaySDK\PostOrder\Types\ClaimHistoryResponse $inquiryHistoryDetails
  * @property string $inquiryId
  * @property integer $inquiryQuantity
- * @property \DTS\eBaySDK\PostOrder\Types\ItemDetails $itemDetails
+ * @property \SONHH\eBaySDK\PostOrder\Types\ItemDetails $itemDetails
  * @property string $itemId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddress $returnDetails
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $sellerMakeItRightByDate
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $shippingCost
+ * @property \SONHH\eBaySDK\PostOrder\Types\ReturnAddress $returnDetails
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $sellerMakeItRightByDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\Amount $shippingCost
  * @property string $state
  * @property string $status
  * @property string $transactionId
  * @property string $viewPPTrasanctionUrl
  */
-class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
+class InquiryDetailsResponse extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'claimAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'claimAmount'
@@ -54,13 +54,13 @@ class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'initiator'
         ],
         'inquiryDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\InquiryDetails',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\InquiryDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inquiryDetails'
         ],
         'inquiryHistoryDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\ClaimHistoryResponse',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inquiryHistoryDetails'
@@ -78,7 +78,7 @@ class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'inquiryQuantity'
         ],
         'itemDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemDetails',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\ItemDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemDetails'
@@ -90,19 +90,19 @@ class InquiryDetailsResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'itemId'
         ],
         'returnDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddress',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\ReturnAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnDetails'
         ],
         'sellerMakeItRightByDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerMakeItRightByDate'
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'

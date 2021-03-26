@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\InventoryStatusType[] $InventoryStatus
+ * @property \SONHH\eBaySDK\Trading\Types\InventoryStatusType[] $InventoryStatus
  */
-class ReviseInventoryStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseInventoryStatusRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'InventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\InventoryStatusType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'InventoryStatus'

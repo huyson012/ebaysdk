@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace SONHH\eBaySDK\Catalog\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\CategoryAspect[] $aspects
- * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifier $brand
- * @property \DTS\eBaySDK\Catalog\Types\ProductIdentifier $mpn
+ * @property \SONHH\eBaySDK\Catalog\Types\CategoryAspect[] $aspects
+ * @property \SONHH\eBaySDK\Catalog\Types\ProductIdentifier $brand
+ * @property \SONHH\eBaySDK\Catalog\Types\ProductIdentifier $mpn
  */
-class ProductMetadataForCategories extends \DTS\eBaySDK\Types\BaseType
+class ProductMetadataForCategories extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspects' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CategoryAspect',
+            'type' => 'SONHH\eBaySDK\Catalog\Types\CategoryAspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspects'
         ],
         'brand' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifier',
+            'type' => 'SONHH\eBaySDK\Catalog\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'brand'
         ],
         'mpn' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ProductIdentifier',
+            'type' => 'SONHH\eBaySDK\Catalog\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'mpn'

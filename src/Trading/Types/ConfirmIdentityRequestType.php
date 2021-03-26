@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SessionID
  */
-class ConfirmIdentityRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ConfirmIdentityRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

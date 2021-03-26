@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $additionalShippingCost
+ * @property \SONHH\eBaySDK\Account\Types\Amount $additionalShippingCost
  * @property boolean $buyerResponsibleForPickup
  * @property boolean $buyerResponsibleForShipping
- * @property \DTS\eBaySDK\Account\Types\Amount $cashOnDeliveryFee
+ * @property \SONHH\eBaySDK\Account\Types\Amount $cashOnDeliveryFee
  * @property boolean $freeShipping
  * @property string $shippingCarrierCode
- * @property \DTS\eBaySDK\Account\Types\Amount $shippingCost
+ * @property \SONHH\eBaySDK\Account\Types\Amount $shippingCost
  * @property string $shippingServiceCode
- * @property \DTS\eBaySDK\Account\Types\RegionSet $shipToLocations
+ * @property \SONHH\eBaySDK\Account\Types\RegionSet $shipToLocations
  * @property integer $sortOrder
- * @property \DTS\eBaySDK\Account\Types\Amount $surcharge
+ * @property \SONHH\eBaySDK\Account\Types\Amount $surcharge
  */
-class ShippingService extends \DTS\eBaySDK\Types\BaseType
+class ShippingService extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalShippingCost' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'additionalShippingCost'
@@ -49,7 +49,7 @@ class ShippingService extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'buyerResponsibleForShipping'
         ],
         'cashOnDeliveryFee' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cashOnDeliveryFee'
@@ -67,7 +67,7 @@ class ShippingService extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'shippingCarrierCode'
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
@@ -79,7 +79,7 @@ class ShippingService extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'shippingServiceCode'
         ],
         'shipToLocations' => [
-            'type' => 'DTS\eBaySDK\Account\Types\RegionSet',
+            'type' => 'SONHH\eBaySDK\Account\Types\RegionSet',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocations'
@@ -91,7 +91,7 @@ class ShippingService extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'sortOrder'
         ],
         'surcharge' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'surcharge'

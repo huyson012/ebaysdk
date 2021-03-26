@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $RecipientBidderUserID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
- * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
+ * @property \SONHH\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
+ * @property \SONHH\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
  * @property string $ItemID
  * @property string $SellerMessage
  */
-class VerifyAddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class VerifyAddSecondChanceItemRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class VerifyAddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\Ab
             'elementName' => 'RecipientBidderUserID'
         ],
         'BuyItNowPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyItNowPrice'

@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
  */
-class BulkMigrateListingsRestRequest extends \DTS\eBaySDK\Inventory\Types\BulkMigrateListing
+class BulkMigrateListingsRestRequest extends \SONHH\eBaySDK\Inventory\Types\BulkMigrateListing
 {
     /**
      * @var array Properties belonging to objects of this class.

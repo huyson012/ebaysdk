@@ -8,57 +8,57 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace SONHH\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\AppliedPromotion[] $appliedPromotions
- * @property \DTS\eBaySDK\Fulfillment\Types\DeliveryCost $deliveryCost
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountedLineItemCost
- * @property \DTS\eBaySDK\Fulfillment\Types\GiftDetails $giftDetails
+ * @property \SONHH\eBaySDK\Fulfillment\Types\AppliedPromotion[] $appliedPromotions
+ * @property \SONHH\eBaySDK\Fulfillment\Types\DeliveryCost $deliveryCost
+ * @property \SONHH\eBaySDK\Fulfillment\Types\Amount $discountedLineItemCost
+ * @property \SONHH\eBaySDK\Fulfillment\Types\GiftDetails $giftDetails
  * @property string $legacyItemId
  * @property string $legacyVariationId
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $lineItemCost
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions
- * @property \DTS\eBaySDK\Fulfillment\Enums\LineItemFulfillmentStatusEnum $lineItemFulfillmentStatus
+ * @property \SONHH\eBaySDK\Fulfillment\Types\Amount $lineItemCost
+ * @property \SONHH\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions $lineItemFulfillmentInstructions
+ * @property \SONHH\eBaySDK\Fulfillment\Enums\LineItemFulfillmentStatusEnum $lineItemFulfillmentStatus
  * @property string $lineItemId
- * @property \DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $listingMarketplaceId
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemProperties $properties
- * @property \DTS\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $purchaseMarketplaceId
+ * @property \SONHH\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $listingMarketplaceId
+ * @property \SONHH\eBaySDK\Fulfillment\Types\LineItemProperties $properties
+ * @property \SONHH\eBaySDK\Fulfillment\Enums\MarketplaceIdEnum $purchaseMarketplaceId
  * @property integer $quantity
- * @property \DTS\eBaySDK\Fulfillment\Types\LineItemRefund[] $refunds
+ * @property \SONHH\eBaySDK\Fulfillment\Types\LineItemRefund[] $refunds
  * @property string $sku
- * @property \DTS\eBaySDK\Fulfillment\Enums\SoldFormatEnum $soldFormat
- * @property \DTS\eBaySDK\Fulfillment\Types\Tax[] $taxes
+ * @property \SONHH\eBaySDK\Fulfillment\Enums\SoldFormatEnum $soldFormat
+ * @property \SONHH\eBaySDK\Fulfillment\Types\Tax[] $taxes
  * @property string $title
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $total
+ * @property \SONHH\eBaySDK\Fulfillment\Types\Amount $total
  */
-class LineItem extends \DTS\eBaySDK\Types\BaseType
+class LineItem extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'appliedPromotions' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\AppliedPromotion',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\AppliedPromotion',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'appliedPromotions'
         ],
         'deliveryCost' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\DeliveryCost',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\DeliveryCost',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryCost'
         ],
         'discountedLineItemCost' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountedLineItemCost'
         ],
         'giftDetails' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\GiftDetails',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\GiftDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'giftDetails'
@@ -76,13 +76,13 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'legacyVariationId'
         ],
         'lineItemCost' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lineItemCost'
         ],
         'lineItemFulfillmentInstructions' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\LineItemFulfillmentInstructions',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lineItemFulfillmentInstructions'
@@ -106,7 +106,7 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'listingMarketplaceId'
         ],
         'properties' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemProperties',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\LineItemProperties',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'properties'
@@ -124,7 +124,7 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'quantity'
         ],
         'refunds' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\LineItemRefund',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\LineItemRefund',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'refunds'
@@ -142,7 +142,7 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'soldFormat'
         ],
         'taxes' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Tax',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\Tax',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'taxes'
@@ -154,7 +154,7 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'title'
         ],
         'total' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'total'

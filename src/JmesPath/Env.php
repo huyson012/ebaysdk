@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace DTS\eBaySDK\JmesPath;
+namespace SONHH\eBaySDK\JmesPath;
 
 /**
  * Provides a simple environment based search.

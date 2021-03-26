@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CategoryMappingType[] $CategoryMapping
+ * @property \SONHH\eBaySDK\Trading\Types\CategoryMappingType[] $CategoryMapping
  * @property string $CategoryVersion
  */
-class GetCategoryMappingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetCategoryMappingsResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CategoryMapping' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryMappingType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\CategoryMappingType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CategoryMapping'

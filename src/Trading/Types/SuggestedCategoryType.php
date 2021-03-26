@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CategoryType $Category
+ * @property \SONHH\eBaySDK\Trading\Types\CategoryType $Category
  * @property integer $PercentItemFound
  */
-class SuggestedCategoryType extends \DTS\eBaySDK\Types\BaseType
+class SuggestedCategoryType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Category' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CategoryType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\CategoryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Category'

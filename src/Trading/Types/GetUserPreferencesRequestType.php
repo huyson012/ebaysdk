@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -33,7 +33,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ShowOutOfStockControlPreference
  * @property boolean $ShoweBayPLUSPreference
  */
-class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetUserPreferencesRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

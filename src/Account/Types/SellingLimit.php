@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $amount
+ * @property \SONHH\eBaySDK\Account\Types\Amount $amount
  * @property integer $quantity
  */
-class SellingLimit extends \DTS\eBaySDK\Types\BaseType
+class SellingLimit extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'

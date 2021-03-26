@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace SONHH\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $unitOfMeasure
  * @property string $value
  */
-class TargetLocation extends \DTS\eBaySDK\Types\BaseType
+class TargetLocation extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

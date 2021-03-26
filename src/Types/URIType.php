@@ -1,12 +1,12 @@
 <?php
-namespace DTS\eBaySDK\Types;
+namespace SONHH\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to uri types in the XML.
  *
  * @property string $value
  */
-class URIType extends \DTS\eBaySDK\Types\BaseType
+class URIType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

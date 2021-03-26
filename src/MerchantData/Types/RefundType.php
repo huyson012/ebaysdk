@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundFromSeller
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalRefundToBuyer
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $RefundFromSeller
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $TotalRefundToBuyer
  * @property \DateTime $RefundTime
  * @property string $RefundID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $RefundAmount
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $RefundAmount
  */
-class RefundType extends \DTS\eBaySDK\Types\BaseType
+class RefundType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'RefundFromSeller' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundFromSeller'
         ],
         'TotalRefundToBuyer' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalRefundToBuyer'
@@ -49,7 +49,7 @@ class RefundType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RefundID'
         ],
         'RefundAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
- * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \SONHH\eBaySDK\Trading\Enums\TradingRoleCodeType $Role
+ * @property \SONHH\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
+ * @property \SONHH\eBaySDK\Trading\Types\ItemType $Item
  */
-class ItemBestOffersType extends \DTS\eBaySDK\Types\BaseType
+class ItemBestOffersType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class ItemBestOffersType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Role'
         ],
         'BestOfferArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferArrayType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\BestOfferArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferArray'
         ],
         'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'

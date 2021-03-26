@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Fulfillment\Services;
+namespace SONHH\eBaySDK\Fulfillment\Services;
 
 /**
  * Base class for the Fulfillment service.
  */
-class FulfillmentBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class FulfillmentBaseService extends \SONHH\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class FulfillmentBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Fulfillment\Services\FulfillmentService::API_VERSION,
+                'default' => \SONHH\eBaySDK\Fulfillment\Services\FulfillmentService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

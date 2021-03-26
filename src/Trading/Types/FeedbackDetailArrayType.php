@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\FeedbackDetailType[] $FeedbackDetail
+ * @property \SONHH\eBaySDK\Trading\Types\FeedbackDetailType[] $FeedbackDetail
  */
-class FeedbackDetailArrayType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackDetailArrayType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'FeedbackDetail' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeedbackDetailType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\FeedbackDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'FeedbackDetail'

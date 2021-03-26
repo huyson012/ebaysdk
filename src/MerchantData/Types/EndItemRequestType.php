@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\MerchantData\Enums\EndReasonCodeType $EndingReason
+ * @property \SONHH\eBaySDK\MerchantData\Enums\EndReasonCodeType $EndingReason
  * @property string $SellerInventoryID
  */
-class EndItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class EndItemRequestType extends \SONHH\eBaySDK\MerchantData\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

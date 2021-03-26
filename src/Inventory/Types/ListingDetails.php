@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $listingId
- * @property \DTS\eBaySDK\Inventory\Enums\ListingStatusEnum $listingStatus
+ * @property \SONHH\eBaySDK\Inventory\Enums\ListingStatusEnum $listingStatus
  * @property integer $soldQuantity
  */
-class ListingDetails extends \DTS\eBaySDK\Types\BaseType
+class ListingDetails extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

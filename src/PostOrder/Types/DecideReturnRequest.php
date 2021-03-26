@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
- * @property \DTS\eBaySDK\PostOrder\Enums\DecisionEnum $decision
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
+ * @property \SONHH\eBaySDK\PostOrder\Types\Text $comments
+ * @property \SONHH\eBaySDK\PostOrder\Enums\DecisionEnum $decision
+ * @property \SONHH\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
  * @property string $RMANumber
  */
-class DecideReturnRequest extends \DTS\eBaySDK\Types\BaseType
+class DecideReturnRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
@@ -36,7 +36,7 @@ class DecideReturnRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'decision'
         ],
         'partialRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'partialRefundAmount'

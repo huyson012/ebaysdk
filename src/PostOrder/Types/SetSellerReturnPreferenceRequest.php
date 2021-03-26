@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property boolean $RMARequired
  */
-class SetSellerReturnPreferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class SetSellerReturnPreferenceRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

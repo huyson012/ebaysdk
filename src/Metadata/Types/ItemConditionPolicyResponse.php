@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Types;
+namespace SONHH\eBaySDK\Metadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\ItemConditionPolicy[] $itemConditionPolicies
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property \SONHH\eBaySDK\Metadata\Types\ItemConditionPolicy[] $itemConditionPolicies
+ * @property \SONHH\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */
-class ItemConditionPolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class ItemConditionPolicyResponse extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemConditionPolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ItemConditionPolicy',
+            'type' => 'SONHH\eBaySDK\Metadata\Types\ItemConditionPolicy',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemConditionPolicies'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $TotalAvailable
- * @property \DTS\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
+ * @property \SONHH\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
  */
-class MyeBaySecondChanceOfferListType extends \DTS\eBaySDK\Types\BaseType
+class MyeBaySecondChanceOfferListType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class MyeBaySecondChanceOfferListType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TotalAvailable'
         ],
         'SecondChanceOffer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SecondChanceOffer'

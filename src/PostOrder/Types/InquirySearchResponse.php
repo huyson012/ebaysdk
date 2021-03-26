@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\InquirySummaryType[] $members
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property \SONHH\eBaySDK\PostOrder\Types\InquirySummaryType[] $members
+ * @property \SONHH\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  * @property integer $totalNumberOfInquiries
  */
-class InquirySearchResponse extends \DTS\eBaySDK\Types\BaseType
+class InquirySearchResponse extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'members' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\InquirySummaryType',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\InquirySummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'members'
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

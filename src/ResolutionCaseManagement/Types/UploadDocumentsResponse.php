@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace SONHH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class UploadDocumentsResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class UploadDocumentsResponse extends \SONHH\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

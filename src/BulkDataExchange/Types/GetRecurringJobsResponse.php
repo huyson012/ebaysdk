@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace SONHH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail[] $recurringJobDetail
+ * @property \SONHH\eBaySDK\BulkDataExchange\Types\RecurringJobDetail[] $recurringJobDetail
  */
-class GetRecurringJobsResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class GetRecurringJobsResponse extends \SONHH\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'recurringJobDetail' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\RecurringJobDetail',
+            'type' => 'SONHH\eBaySDK\BulkDataExchange\Types\RecurringJobDetail',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'recurringJobDetail'

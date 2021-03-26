@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $PictureName
  * @property integer $PictureSystemVersion
- * @property \DTS\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
- * @property \DTS\eBaySDK\MerchantData\Types\Base64BinaryType $PictureData
- * @property \DTS\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType $PictureUploadPolicy
+ * @property \SONHH\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
+ * @property \SONHH\eBaySDK\MerchantData\Types\Base64BinaryType $PictureData
+ * @property \SONHH\eBaySDK\MerchantData\Enums\PictureUploadPolicyCodeType $PictureUploadPolicy
  * @property string[] $ExternalPictureURL
  * @property integer $ExtensionInDays
  */
-class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class UploadSiteHostedPicturesRequestType extends \SONHH\eBaySDK\MerchantData\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -45,7 +45,7 @@ class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\MerchantData\Type
             'elementName' => 'PictureSet'
         ],
         'PictureData' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\Base64BinaryType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\Base64BinaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PictureData'

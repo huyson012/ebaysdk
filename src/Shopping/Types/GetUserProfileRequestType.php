@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace SONHH\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $UserID
  * @property string $IncludeSelector
  */
-class GetUserProfileRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GetUserProfileRequestType extends \SONHH\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

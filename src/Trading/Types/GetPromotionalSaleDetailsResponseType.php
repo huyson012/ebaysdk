@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PromotionalSaleArrayType $PromotionalSaleDetails
+ * @property \SONHH\eBaySDK\Trading\Types\PromotionalSaleArrayType $PromotionalSaleDetails
  */
-class GetPromotionalSaleDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetPromotionalSaleDetailsResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PromotionalSaleDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleArrayType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\PromotionalSaleArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleDetails'

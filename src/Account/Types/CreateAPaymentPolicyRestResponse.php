@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use SONHH\eBaySDK\StatusCodeTrait;
+use SONHH\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property \SONHH\eBaySDK\Account\Types\ErrorDetailV3[] $errors
+ * @property \SONHH\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
  */
-class CreateAPaymentPolicyRestResponse extends \DTS\eBaySDK\Account\Types\SetPaymentPolicyResponse
+class CreateAPaymentPolicyRestResponse extends \SONHH\eBaySDK\Account\Types\SetPaymentPolicyResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class CreateAPaymentPolicyRestResponse extends \DTS\eBaySDK\Account\Types\SetPay
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $return_id
  * @property string $to_email_address
  */
-class SendReturnShippingLabelRestRequest extends \DTS\eBaySDK\Types\BaseType
+class SendReturnShippingLabelRestRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

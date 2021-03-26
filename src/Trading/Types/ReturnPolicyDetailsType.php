@@ -8,43 +8,43 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RefundDetailsType[] $Refund
- * @property \DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType[] $ReturnsWithin
- * @property \DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType[] $ReturnsAccepted
+ * @property \SONHH\eBaySDK\Trading\Types\RefundDetailsType[] $Refund
+ * @property \SONHH\eBaySDK\Trading\Types\ReturnsWithinDetailsType[] $ReturnsWithin
+ * @property \SONHH\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType[] $ReturnsAccepted
  * @property boolean $Description
- * @property \DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType[] $WarrantyOffered
- * @property \DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType[] $WarrantyType
- * @property \DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType[] $WarrantyDuration
+ * @property \SONHH\eBaySDK\Trading\Types\WarrantyOfferedDetailsType[] $WarrantyOffered
+ * @property \SONHH\eBaySDK\Trading\Types\WarrantyTypeDetailsType[] $WarrantyType
+ * @property \SONHH\eBaySDK\Trading\Types\WarrantyDurationDetailsType[] $WarrantyDuration
  * @property boolean $EAN
- * @property \DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType[] $ShippingCostPaidBy
- * @property \DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType[] $RestockingFeeValue
+ * @property \SONHH\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType[] $ShippingCostPaidBy
+ * @property \SONHH\eBaySDK\Trading\Types\RestockingFeeValueDetailsType[] $RestockingFeeValue
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime
  */
-class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyDetailsType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Refund' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\RefundDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Refund'
         ],
         'ReturnsWithin' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ReturnsWithinDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReturnsWithin'
         ],
         'ReturnsAccepted' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReturnsAccepted'
@@ -56,19 +56,19 @@ class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Description'
         ],
         'WarrantyOffered' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\WarrantyOfferedDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'WarrantyOffered'
         ],
         'WarrantyType' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\WarrantyTypeDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'WarrantyType'
         ],
         'WarrantyDuration' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\WarrantyDurationDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'WarrantyDuration'
@@ -80,13 +80,13 @@ class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'EAN'
         ],
         'ShippingCostPaidBy' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ShippingCostPaidBy'
         ],
         'RestockingFeeValue' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\RestockingFeeValueDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RestockingFeeValue'

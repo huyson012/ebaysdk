@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoListType $AutomatedListingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \SONHH\eBaySDK\Trading\Types\SellingManagerAutoListType $AutomatedListingRule
+ * @property \SONHH\eBaySDK\Trading\Types\SellingManagerAutoRelistType $AutomatedRelistingRule
+ * @property \SONHH\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $AutomatedSecondChanceOfferRule
+ * @property \SONHH\eBaySDK\Trading\Types\FeesType $Fees
  */
-class SetSellingManagerTemplateAutomationRuleResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class SetSellingManagerTemplateAutomationRuleResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AutomatedListingRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoListType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\SellingManagerAutoListType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedListingRule'
         ],
         'AutomatedRelistingRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\SellingManagerAutoRelistType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedRelistingRule'
         ],
         'AutomatedSecondChanceOfferRule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AutomatedSecondChanceOfferRule'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'

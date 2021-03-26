@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ItemType $Item
+ * @property \SONHH\eBaySDK\MerchantData\Types\ItemType $Item
  * @property string[] $DeletedField
  */
-class RelistFixedPriceItemRequestType extends \DTS\eBaySDK\MerchantData\Types\AbstractRequestType
+class RelistFixedPriceItemRequestType extends \SONHH\eBaySDK\MerchantData\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Item' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'

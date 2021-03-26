@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace SONHH\eBaySDK\Shopping\Types;
 
 /**
  *
  */
-class FindReviewsAndGuidesResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class FindReviewsAndGuidesResponseType extends \SONHH\eBaySDK\Shopping\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

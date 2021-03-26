@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace SONHH\eBaySDK\Compliance\Types;
 
 /**
  *
  * @property string $name
  * @property string $value
  */
-class NameValueList extends \DTS\eBaySDK\Types\BaseType
+class NameValueList extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

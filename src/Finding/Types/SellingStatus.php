@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace SONHH\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\Amount $currentPrice
- * @property \DTS\eBaySDK\Finding\Types\Amount $convertedCurrentPrice
+ * @property \SONHH\eBaySDK\Finding\Types\Amount $currentPrice
+ * @property \SONHH\eBaySDK\Finding\Types\Amount $convertedCurrentPrice
  * @property integer $bidCount
  * @property string $sellingState
  * @property string $timeLeft
  */
-class SellingStatus extends \DTS\eBaySDK\Types\BaseType
+class SellingStatus extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'currentPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'currentPrice'
         ],
         'convertedCurrentPrice' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Finding\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'convertedCurrentPrice'

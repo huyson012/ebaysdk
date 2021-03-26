@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class AddDisputeResponseResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class AddDisputeResponseResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

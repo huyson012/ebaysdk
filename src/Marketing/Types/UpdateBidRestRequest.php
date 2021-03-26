@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace SONHH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $ad_id
  * @property string $campaign_id
  */
-class UpdateBidRestRequest extends \DTS\eBaySDK\Marketing\Types\UpdateBidPercentageRequest
+class UpdateBidRestRequest extends \SONHH\eBaySDK\Marketing\Types\UpdateBidPercentageRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

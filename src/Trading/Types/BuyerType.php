@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
+ * @property \SONHH\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \SONHH\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
  */
-class BuyerType extends \DTS\eBaySDK\Types\BaseType
+class BuyerType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingAddress' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\AddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
         ],
         'BuyerTaxIdentifier' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TaxIdentifierType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\TaxIdentifierType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'BuyerTaxIdentifier'

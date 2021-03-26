@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $Timestamp
- * @property \DTS\eBaySDK\Trading\Enums\AckCodeType $Ack
+ * @property \SONHH\eBaySDK\Trading\Enums\AckCodeType $Ack
  * @property string $CorrelationID
- * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property \SONHH\eBaySDK\Trading\Types\ErrorType[] $Errors
  * @property string $Message
  * @property string $Version
  * @property string $Build
  * @property string $NotificationEventName
- * @property \DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
+ * @property \SONHH\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
  * @property string $RecipientUserID
  * @property string $EIASToken
  * @property string $NotificationSignature
  * @property string $HardExpirationWarning
- * @property \DTS\eBaySDK\Trading\Types\BotBlockResponseType $BotBlock
+ * @property \SONHH\eBaySDK\Trading\Types\BotBlockResponseType $BotBlock
  * @property string $ExternalUserData
  */
-class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
+class AbstractResponseType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -53,7 +53,7 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CorrelationID'
         ],
         'Errors' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'
@@ -83,7 +83,7 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'NotificationEventName'
         ],
         'DuplicateInvocationDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\DuplicateInvocationDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DuplicateInvocationDetails'
@@ -113,7 +113,7 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'HardExpirationWarning'
         ],
         'BotBlock' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BotBlockResponseType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\BotBlockResponseType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BotBlock'

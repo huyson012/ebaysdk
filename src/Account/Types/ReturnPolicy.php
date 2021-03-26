@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property \SONHH\eBaySDK\Account\Types\CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $extendedHolidayReturnsOffered
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \SONHH\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
+ * @property \SONHH\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage
  * @property string $returnInstructions
- * @property \DTS\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $returnPeriod
+ * @property \SONHH\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
+ * @property \SONHH\eBaySDK\Account\Types\TimeDuration $returnPeriod
  * @property string $returnPolicyId
  * @property boolean $returnsAccepted
- * @property \DTS\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
+ * @property \SONHH\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
  */
-class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicy extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'type' => 'SONHH\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTypes'
@@ -87,7 +87,7 @@ class ReturnPolicy extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'returnMethod'
         ],
         'returnPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'SONHH\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPeriod'

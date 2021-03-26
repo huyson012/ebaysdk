@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace SONHH\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $description
- * @property \DTS\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
+ * @property \SONHH\eBaySDK\Marketing\Types\DiscountRule[] $discountRules
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \SONHH\eBaySDK\Marketing\Types\InventoryCriterion $inventoryCriterion
+ * @property \SONHH\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
+ * @property \SONHH\eBaySDK\Marketing\Enums\PromotionPriorityEnum $priority
  * @property string $promotionId
  * @property string $promotionImageUrl
- * @property \DTS\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
+ * @property \SONHH\eBaySDK\Marketing\Enums\PromotionStatusEnum $promotionStatus
  * @property string $startDate
  */
-class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
+class ItemPromotionResponse extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,7 +37,7 @@ class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'description'
         ],
         'discountRules' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DiscountRule',
+            'type' => 'SONHH\eBaySDK\Marketing\Types\DiscountRule',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'discountRules'
@@ -49,7 +49,7 @@ class ItemPromotionResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'endDate'
         ],
         'inventoryCriterion' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryCriterion',
+            'type' => 'SONHH\eBaySDK\Marketing\Types\InventoryCriterion',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'inventoryCriterion'

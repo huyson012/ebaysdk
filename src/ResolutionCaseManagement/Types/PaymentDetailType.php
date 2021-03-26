@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace SONHH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType[] $moneyMovement
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\Amount $balanceDue
+ * @property \SONHH\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType[] $moneyMovement
+ * @property \SONHH\eBaySDK\ResolutionCaseManagement\Types\Amount $balanceDue
  */
-class PaymentDetailType extends \DTS\eBaySDK\Types\BaseType
+class PaymentDetailType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'moneyMovement' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType',
+            'type' => 'SONHH\eBaySDK\ResolutionCaseManagement\Types\MoneyMovementDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'moneyMovement'
         ],
         'balanceDue' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\Amount',
+            'type' => 'SONHH\eBaySDK\ResolutionCaseManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'balanceDue'

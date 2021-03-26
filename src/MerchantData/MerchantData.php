@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\MerchantData;
+namespace SONHH\eBaySDK\MerchantData;
 
 /**
  * Unlike other services there is no MerchantData service class as all operations
@@ -11,19 +11,19 @@ namespace DTS\eBaySDK\MerchantData;
 class MerchantData
 {
     /**
-     * @var \DTS\eBaySDK\Parser\XmlParser
+     * @var \SONHH\eBaySDK\Parser\XmlParser
      */
     private $xmlParser;
 
     public function __construct()
     {
-        $this->xmlParser = new \DTS\eBaySDK\Parser\XmlParser('\DTS\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType');
+        $this->xmlParser = new \SONHH\eBaySDK\Parser\XmlParser('\SONHH\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType');
     }
 
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType
+     * @return \SONHH\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType
      */
     public function bulkDataExchangeResponses($xml)
     {
@@ -33,7 +33,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType
+     * @return \SONHH\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType
      */
     public function activeInventoryReport($xml)
     {
@@ -43,7 +43,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType[]
      */
     public function addFixedPriceItem($xml)
     {
@@ -53,7 +53,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\AddItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\AddItemResponseType[]
      */
     public function addItem($xml)
     {
@@ -63,7 +63,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType[]
      */
     public function endFixedPriceItem($xml)
     {
@@ -73,7 +73,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\EndItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\EndItemResponseType[]
      */
     public function endItem($xml)
     {
@@ -83,7 +83,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType
+     * @return \SONHH\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType
      */
     public function feeSettlementReport($xml)
     {
@@ -93,7 +93,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\OrderAckResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\OrderAckResponseType[]
      */
     public function orderAck($xml)
     {
@@ -103,7 +103,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType[]
      */
     public function relistFixedPriceItem($xml)
     {
@@ -113,7 +113,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\RelistItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\RelistItemResponseType[]
      */
     public function relistItem($xml)
     {
@@ -123,7 +123,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType[]
      */
     public function reviseFixedPriceItem($xml)
     {
@@ -133,7 +133,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType[]
      */
     public function reviseInventoryStatus($xml)
     {
@@ -143,7 +143,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\ReviseItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\ReviseItemResponseType[]
      */
     public function reviseItem($xml)
     {
@@ -153,7 +153,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType[]
      */
     public function setShipmentTrackingInfo($xml)
     {
@@ -163,7 +163,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\SoldReportResponseType
+     * @return \SONHH\eBaySDK\MerchantData\Types\SoldReportResponseType
      */
     public function soldReport($xml)
     {
@@ -173,7 +173,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType[]
      */
     public function uploadSiteHostedPictures($xml)
     {
@@ -183,7 +183,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType[]
      */
     public function verifyAddFixedPriceItem($xml)
     {
@@ -193,7 +193,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType[]
+     * @return \SONHH\eBaySDK\MerchantData\Types\VerifyAddItemResponseType[]
      */
     public function verifyAddItem($xml)
     {
@@ -203,7 +203,7 @@ class MerchantData
     /**
      * @param string $xml
      *
-     * @return \DTS\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType
+     * @return \SONHH\eBaySDK\MerchantData\Types\BulkDataExchangeResponsesType
      */
     private function parseXml($xml)
     {

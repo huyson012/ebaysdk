@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace SONHH\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $aspectName
  * @property string[] $values
  */
-class ViolationAspectValues extends \DTS\eBaySDK\Types\BaseType
+class ViolationAspectValues extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

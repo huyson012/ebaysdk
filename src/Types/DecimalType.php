@@ -1,12 +1,12 @@
 <?php
-namespace DTS\eBaySDK\Types;
+namespace SONHH\eBaySDK\Types;
 
 /**
  * Base class for objects that correspond to decimal types in the XML.
  *
  * @property integer $value
  */
-class DecimalType extends \DTS\eBaySDK\Types\BaseType
+class DecimalType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -16,12 +16,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $IncludeItemCount
  * @property boolean $IncludeFavoriteSearcheCount
  * @property boolean $IncludeFavoriteSellerCount
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $Sort
+ * @property \SONHH\eBaySDK\Trading\Enums\SortOrderCodeType $Sort
  * @property integer $MaxResults
  * @property string $UserDefinedListName
  * @property boolean $IncludeListContents
  */
-class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
+class MyeBaySelectionType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

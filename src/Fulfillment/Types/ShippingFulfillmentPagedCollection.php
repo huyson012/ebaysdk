@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace SONHH\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment[] $fulfillments
+ * @property \SONHH\eBaySDK\Fulfillment\Types\ShippingFulfillment[] $fulfillments
  * @property integer $total
- * @property \DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
+ * @property \SONHH\eBaySDK\Fulfillment\Types\ErrorDetailV3[] $warnings
  */
-class ShippingFulfillmentPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class ShippingFulfillmentPagedCollection extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'fulfillments' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ShippingFulfillment',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\ShippingFulfillment',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'fulfillments'
@@ -35,7 +35,7 @@ class ShippingFulfillmentPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'total'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Fulfillment\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

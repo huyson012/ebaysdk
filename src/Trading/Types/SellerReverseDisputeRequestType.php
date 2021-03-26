@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DisputeID
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
+ * @property \SONHH\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
  */
-class SellerReverseDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SellerReverseDisputeRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

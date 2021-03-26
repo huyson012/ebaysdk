@@ -8,31 +8,31 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace SONHH\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $OriginalRetailPrice
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $MinimumAdvertisedPrice
- * @property \DTS\eBaySDK\Shopping\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
- * @property \DTS\eBaySDK\Shopping\Enums\PricingTreatmentCodeType $PricingTreatment
+ * @property \SONHH\eBaySDK\Shopping\Types\AmountType $OriginalRetailPrice
+ * @property \SONHH\eBaySDK\Shopping\Types\AmountType $MinimumAdvertisedPrice
+ * @property \SONHH\eBaySDK\Shopping\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
+ * @property \SONHH\eBaySDK\Shopping\Enums\PricingTreatmentCodeType $PricingTreatment
  * @property boolean $SoldOneBay
  * @property boolean $SoldOffeBay
  */
-class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
+class DiscountPriceInfoType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalRetailPrice'
         ],
         'MinimumAdvertisedPrice' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumAdvertisedPrice'

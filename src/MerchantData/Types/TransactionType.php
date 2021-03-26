@@ -8,121 +8,121 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AmountPaid
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedAdjustmentAmount
- * @property \DTS\eBaySDK\MerchantData\Types\UserType $Buyer
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedAmountPaid
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ConvertedTransactionPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $AmountPaid
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $AdjustmentAmount
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $ConvertedAdjustmentAmount
+ * @property \SONHH\eBaySDK\MerchantData\Types\UserType $Buyer
+ * @property \SONHH\eBaySDK\MerchantData\Types\ShippingDetailsType $ShippingDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $ConvertedAmountPaid
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $ConvertedTransactionPrice
  * @property \DateTime $CreatedDate
- * @property \DTS\eBaySDK\MerchantData\Enums\DepositTypeCodeType $DepositType
- * @property \DTS\eBaySDK\MerchantData\Types\ItemType $Item
+ * @property \SONHH\eBaySDK\MerchantData\Enums\DepositTypeCodeType $DepositType
+ * @property \SONHH\eBaySDK\MerchantData\Types\ItemType $Item
  * @property integer $QuantityPurchased
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionStatusType $Status
+ * @property \SONHH\eBaySDK\MerchantData\Types\TransactionStatusType $Status
  * @property string $TransactionID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TransactionPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $TransactionPrice
  * @property boolean $BestOfferSale
  * @property integer $VATPercent
- * @property \DTS\eBaySDK\MerchantData\Types\ExternalTransactionType[] $ExternalTransaction
- * @property \DTS\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property \DTS\eBaySDK\MerchantData\Enums\PaidStatusCodeType $BuyerPaidStatus
- * @property \DTS\eBaySDK\MerchantData\Enums\PaidStatusCodeType $SellerPaidStatus
+ * @property \SONHH\eBaySDK\MerchantData\Types\ExternalTransactionType[] $ExternalTransaction
+ * @property \SONHH\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\ShippingServiceOptionsType $ShippingServiceSelected
+ * @property \SONHH\eBaySDK\MerchantData\Enums\PaidStatusCodeType $BuyerPaidStatus
+ * @property \SONHH\eBaySDK\MerchantData\Enums\PaidStatusCodeType $SellerPaidStatus
  * @property \DateTime $PaidTime
  * @property \DateTime $ShippedTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $TotalPrice
- * @property \DTS\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackLeft
- * @property \DTS\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackReceived
- * @property \DTS\eBaySDK\MerchantData\Types\OrderType $ContainingOrder
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
- * @property \DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
- * @property \DTS\eBaySDK\MerchantData\Types\RefundArrayType $RefundArray
- * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType $TransactionSiteID
- * @property \DTS\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType $Platform
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $TotalPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackLeft
+ * @property \SONHH\eBaySDK\MerchantData\Types\FeedbackInfoType $FeedbackReceived
+ * @property \SONHH\eBaySDK\MerchantData\Types\OrderType $ContainingOrder
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $FinalValueFee
+ * @property \SONHH\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
+ * @property \SONHH\eBaySDK\MerchantData\Types\RefundArrayType $RefundArray
+ * @property \SONHH\eBaySDK\MerchantData\Enums\SiteCodeType $TransactionSiteID
+ * @property \SONHH\eBaySDK\MerchantData\Enums\TransactionPlatformCodeType $Platform
  * @property string $CartID
  * @property boolean $SellerContactBuyerByEmail
  * @property string $PayPalEmailAddress
  * @property string $PaisaPayID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $BuyerGuaranteePrice
- * @property \DTS\eBaySDK\MerchantData\Types\VariationType $Variation
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $BuyerGuaranteePrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\VariationType $Variation
  * @property string $BuyerCheckoutMessage
- * @property \DTS\eBaySDK\MerchantData\Types\TaxesType $Taxes
+ * @property \SONHH\eBaySDK\MerchantData\Types\TaxesType $Taxes
  * @property boolean $BundlePurchase
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ActualHandlingCost
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $ActualShippingCost
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $ActualHandlingCost
  * @property string $OrderLineItemID
  * @property string $eBayPaymentID
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \DTS\eBaySDK\MerchantData\Types\SellerDiscountsType $SellerDiscounts
+ * @property \SONHH\eBaySDK\MerchantData\Types\PaymentHoldDetailType $PaymentHoldDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\SellerDiscountsType $SellerDiscounts
  * @property string $CodiceFiscale
  * @property boolean $IsMultiLegShipping
- * @property \DTS\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
  * @property \DateTime $InvoiceSentTime
- * @property \DTS\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
+ * @property \SONHH\eBaySDK\MerchantData\Types\UnpaidItemType $UnpaidItem
  * @property boolean $IntangibleItem
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentsInformationType $MonetaryDetails
- * @property \DTS\eBaySDK\MerchantData\Types\PickupDetailsType $PickupDetails
- * @property \DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType $PickupMethodSelected
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $ShippingConvenienceCharge
+ * @property \SONHH\eBaySDK\MerchantData\Types\PaymentsInformationType $MonetaryDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\PickupDetailsType $PickupDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $ShippingConvenienceCharge
  * @property string $LogisticsPlanType
- * @property \DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
+ * @property \SONHH\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property string $InventoryReservationID
  * @property string $ExtendedOrderID
  * @property boolean $eBayPlusTransaction
- * @property \DTS\eBaySDK\MerchantData\Types\GiftSummaryType $GiftSummary
- * @property \DTS\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType $DigitalDeliverySelected
+ * @property \SONHH\eBaySDK\MerchantData\Types\GiftSummaryType $GiftSummary
+ * @property \SONHH\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType $DigitalDeliverySelected
  * @property boolean $Gift
  * @property boolean $GuaranteedShipping
  */
-class TransactionType extends \DTS\eBaySDK\Types\BaseType
+class TransactionType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AmountPaid' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
         ],
         'AdjustmentAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
         ],
         'ConvertedAdjustmentAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedAdjustmentAmount'
         ],
         'Buyer' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Buyer'
         ],
         'ShippingDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingDetailsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
         ],
         'ConvertedAmountPaid' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedAmountPaid'
         ],
         'ConvertedTransactionPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConvertedTransactionPrice'
@@ -140,7 +140,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DepositType'
         ],
         'Item' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ItemType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
@@ -152,7 +152,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'QuantityPurchased'
         ],
         'Status' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionStatusType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\TransactionStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Status'
@@ -164,7 +164,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TransactionID'
         ],
         'TransactionPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionPrice'
@@ -182,19 +182,19 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'VATPercent'
         ],
         'ExternalTransaction' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ExternalTransactionType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\ExternalTransactionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ExternalTransaction'
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'ShippingServiceSelected' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\ShippingServiceOptionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceSelected'
@@ -224,43 +224,43 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShippedTime'
         ],
         'TotalPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TotalPrice'
         ],
         'FeedbackLeft' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FeedbackInfoType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackLeft'
         ],
         'FeedbackReceived' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FeedbackInfoType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\FeedbackInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeedbackReceived'
         ],
         'ContainingOrder' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\OrderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ContainingOrder'
         ],
         'FinalValueFee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FinalValueFee'
         ],
         'ListingCheckoutRedirectPreference' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\ListingCheckoutRedirectPreferenceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingCheckoutRedirectPreference'
         ],
         'RefundArray' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RefundArrayType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\RefundArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RefundArray'
@@ -302,13 +302,13 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PaisaPayID'
         ],
         'BuyerGuaranteePrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerGuaranteePrice'
         ],
         'Variation' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VariationType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\VariationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variation'
@@ -320,7 +320,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'BuyerCheckoutMessage'
         ],
         'Taxes' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TaxesType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\TaxesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Taxes'
@@ -332,13 +332,13 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'BundlePurchase'
         ],
         'ActualShippingCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActualShippingCost'
         ],
         'ActualHandlingCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActualHandlingCost'
@@ -356,13 +356,13 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'eBayPaymentID'
         ],
         'PaymentHoldDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PaymentHoldDetailType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\PaymentHoldDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentHoldDetails'
         ],
         'SellerDiscounts' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellerDiscountsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\SellerDiscountsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerDiscounts'
@@ -380,7 +380,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'IsMultiLegShipping'
         ],
         'MultiLegShippingDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\MultiLegShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MultiLegShippingDetails'
@@ -392,7 +392,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'InvoiceSentTime'
         ],
         'UnpaidItem' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UnpaidItemType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\UnpaidItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnpaidItem'
@@ -404,25 +404,25 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'IntangibleItem'
         ],
         'MonetaryDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PaymentsInformationType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\PaymentsInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MonetaryDetails'
         ],
         'PickupDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PickupDetailsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\PickupDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupDetails'
         ],
         'PickupMethodSelected' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PickupMethodSelectedType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\PickupMethodSelectedType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupMethodSelected'
         ],
         'ShippingConvenienceCharge' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingConvenienceCharge'
@@ -434,7 +434,7 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'LogisticsPlanType'
         ],
         'BuyerPackageEnclosures' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\BuyerPackageEnclosuresType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerPackageEnclosures'
@@ -458,13 +458,13 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'eBayPlusTransaction'
         ],
         'GiftSummary' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\GiftSummaryType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\GiftSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'GiftSummary'
         ],
         'DigitalDeliverySelected' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\DigitalDeliverySelectedType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DigitalDeliverySelected'

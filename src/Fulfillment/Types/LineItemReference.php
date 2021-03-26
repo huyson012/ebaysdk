@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace SONHH\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $lineItemId
  * @property integer $quantity
  */
-class LineItemReference extends \DTS\eBaySDK\Types\BaseType
+class LineItemReference extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DisputeID
  * @property string $MessageText
- * @property \DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType $DisputeActivity
+ * @property \SONHH\eBaySDK\Trading\Enums\DisputeActivityCodeType $DisputeActivity
  * @property string $ShippingCarrierUsed
  * @property string $ShipmentTrackNumber
  * @property \DateTime $ShippingTime
  */
-class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddDisputeResponseRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

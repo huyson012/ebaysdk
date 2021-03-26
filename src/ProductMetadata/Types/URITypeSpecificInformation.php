@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace SONHH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  */
-class URITypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class URITypeSpecificInformation extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

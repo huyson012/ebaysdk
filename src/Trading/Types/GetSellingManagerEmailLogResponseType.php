@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType[] $EmailLog
+ * @property \SONHH\eBaySDK\Trading\Types\SellingManagerEmailLogType[] $EmailLog
  */
-class GetSellingManagerEmailLogResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellingManagerEmailLogResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'EmailLog' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\SellingManagerEmailLogType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'EmailLog'

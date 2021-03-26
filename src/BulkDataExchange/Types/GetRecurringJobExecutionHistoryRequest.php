@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace SONHH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property \DateTime $startTime
  * @property \DateTime $endTime
  * @property string $recurringJobId
- * @property \DTS\eBaySDK\BulkDataExchange\Enums\JobStatus[] $jobStatus
+ * @property \SONHH\eBaySDK\BulkDataExchange\Enums\JobStatus[] $jobStatus
  */
-class GetRecurringJobExecutionHistoryRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class GetRecurringJobExecutionHistoryRequest extends \SONHH\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

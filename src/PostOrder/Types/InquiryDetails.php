@@ -8,69 +8,69 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $creationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $escalationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $expirationDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $lastBuyerRespDate
- * @property \DTS\eBaySDK\PostOrder\Types\RefundAmounts $refundAmounts
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $refundDeadlineDate
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $totalAmount
+ * @property \SONHH\eBaySDK\PostOrder\Types\AppealDetails $appealDetails
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $creationDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $escalationDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $expirationDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $lastBuyerRespDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\RefundAmounts $refundAmounts
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $refundDeadlineDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\Amount $totalAmount
  */
-class InquiryDetails extends \DTS\eBaySDK\Types\BaseType
+class InquiryDetails extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'appealDetails' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\AppealDetails',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\AppealDetails',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'appealDetails'
         ],
         'creationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDate'
         ],
         'escalationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'escalationDate'
         ],
         'expirationDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'expirationDate'
         ],
         'lastBuyerRespDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lastBuyerRespDate'
         ],
         'refundAmounts' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RefundAmounts',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\RefundAmounts',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundAmounts'
         ],
         'refundDeadlineDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundDeadlineDate'
         ],
         'totalAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalAmount'

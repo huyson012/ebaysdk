@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace SONHH\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile[] $PaymentProfile
+ * @property \SONHH\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile[] $PaymentProfile
  */
-class PaymentProfileList extends \DTS\eBaySDK\Types\BaseType
+class PaymentProfileList extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PaymentProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile',
+            'type' => 'SONHH\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PaymentProfile'

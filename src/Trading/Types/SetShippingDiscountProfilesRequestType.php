@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
- * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
- * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $ModifyActionCode
- * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
- * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
- * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property \SONHH\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
+ * @property \SONHH\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
+ * @property \SONHH\eBaySDK\Trading\Enums\ModifyActionCodeType $ModifyActionCode
+ * @property \SONHH\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
+ * @property \SONHH\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property \SONHH\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
+ * @property \SONHH\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
  */
-class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class SetShippingDiscountProfilesRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -45,25 +45,25 @@ class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\
             'elementName' => 'ModifyActionCode'
         ],
         'FlatShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\FlatShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FlatShippingDiscount'
         ],
         'CalculatedShippingDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingDiscount'
         ],
         'CalculatedHandlingDiscount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CalculatedHandlingDiscount'
         ],
         'PromotionalShippingDiscountDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PromotionalShippingDiscountDetails'

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property string $userId
  * @property string $userLoginName
- * @property \DTS\eBaySDK\ReturnManagement\Enums\UserFilterRoleType $role
+ * @property \SONHH\eBaySDK\ReturnManagement\Enums\UserFilterRoleType $role
  */
-class UserFilterType extends \DTS\eBaySDK\Types\BaseType
+class UserFilterType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

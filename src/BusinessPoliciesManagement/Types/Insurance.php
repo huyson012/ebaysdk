@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace SONHH\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
+ * @property \SONHH\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
  * @property string $domesticInsuranceOption
  * @property string $intlInsuranceOption
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
+ * @property \SONHH\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
  */
-class Insurance extends \DTS\eBaySDK\Types\BaseType
+class Insurance extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'domesticInsuranceFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'SONHH\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'domesticInsuranceFee'
@@ -42,7 +42,7 @@ class Insurance extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'intlInsuranceOption'
         ],
         'intlInsuranceFee' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'SONHH\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'intlInsuranceFee'

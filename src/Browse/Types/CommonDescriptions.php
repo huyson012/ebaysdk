@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace SONHH\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $description
  * @property string[] $itemIds
  */
-class CommonDescriptions extends \DTS\eBaySDK\Types\BaseType
+class CommonDescriptions extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

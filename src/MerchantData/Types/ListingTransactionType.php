@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property string $Memo
  * @property string $GlobalCategoryDescription
  * @property string $SiteDescription
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeAmount
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $FeeAmount
  */
-class ListingTransactionType extends \DTS\eBaySDK\Types\BaseType
+class ListingTransactionType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ListingTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SiteDescription'
         ],
         'FeeAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeAmount'

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Enums;
+namespace SONHH\eBaySDK\PostOrder\Enums;
 
 class CancelStatusEnum
 {

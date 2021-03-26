@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace SONHH\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
+ * @property \SONHH\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
+ * @property \SONHH\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
+ * @property \SONHH\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
  */
-class FindItemsByKeywordsResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsByKeywordsResponse extends \SONHH\eBaySDK\Finding\Types\BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
+            'type' => 'SONHH\eBaySDK\Finding\Types\CategoryHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'categoryHistogramContainer'
         ],
         'aspectHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
+            'type' => 'SONHH\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectHistogramContainer'
         ],
         'conditionHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
+            'type' => 'SONHH\eBaySDK\Finding\Types\ConditionHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'conditionHistogramContainer'

@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $OriginalRetailPrice
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MinimumAdvertisedPrice
- * @property \DTS\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
- * @property \DTS\eBaySDK\MerchantData\Enums\PricingTreatmentCodeType $PricingTreatment
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $OriginalRetailPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $MinimumAdvertisedPrice
+ * @property \SONHH\eBaySDK\MerchantData\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
+ * @property \SONHH\eBaySDK\MerchantData\Enums\PricingTreatmentCodeType $PricingTreatment
  * @property boolean $SoldOneBay
  * @property boolean $SoldOffeBay
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $MadeForOutletComparisonPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $MadeForOutletComparisonPrice
  */
-class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
+class DiscountPriceInfoType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalRetailPrice'
         ],
         'MinimumAdvertisedPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumAdvertisedPrice'
@@ -63,7 +63,7 @@ class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SoldOffeBay'
         ],
         'MadeForOutletComparisonPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MadeForOutletComparisonPrice'

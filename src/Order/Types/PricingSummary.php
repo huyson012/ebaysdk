@@ -8,69 +8,69 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace SONHH\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\Adjustment $adjustment
- * @property \DTS\eBaySDK\Order\Types\Amount $deliveryCost
- * @property \DTS\eBaySDK\Order\Types\Amount $deliveryDiscount
- * @property \DTS\eBaySDK\Order\Types\Amount $fee
- * @property \DTS\eBaySDK\Order\Types\Amount $priceDiscount
- * @property \DTS\eBaySDK\Order\Types\Amount $priceSubtotal
- * @property \DTS\eBaySDK\Order\Types\Amount $tax
- * @property \DTS\eBaySDK\Order\Types\Amount $total
+ * @property \SONHH\eBaySDK\Order\Types\Adjustment $adjustment
+ * @property \SONHH\eBaySDK\Order\Types\Amount $deliveryCost
+ * @property \SONHH\eBaySDK\Order\Types\Amount $deliveryDiscount
+ * @property \SONHH\eBaySDK\Order\Types\Amount $fee
+ * @property \SONHH\eBaySDK\Order\Types\Amount $priceDiscount
+ * @property \SONHH\eBaySDK\Order\Types\Amount $priceSubtotal
+ * @property \SONHH\eBaySDK\Order\Types\Amount $tax
+ * @property \SONHH\eBaySDK\Order\Types\Amount $total
  */
-class PricingSummary extends \DTS\eBaySDK\Types\BaseType
+class PricingSummary extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'adjustment' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Adjustment',
+            'type' => 'SONHH\eBaySDK\Order\Types\Adjustment',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'adjustment'
         ],
         'deliveryCost' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryCost'
         ],
         'deliveryDiscount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'deliveryDiscount'
         ],
         'fee' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fee'
         ],
         'priceDiscount' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priceDiscount'
         ],
         'priceSubtotal' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'priceSubtotal'
         ],
         'tax' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'tax'
         ],
         'total' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'total'

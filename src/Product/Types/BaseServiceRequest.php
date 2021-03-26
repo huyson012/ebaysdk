@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace SONHH\eBaySDK\Product\Types;
 
 /**
  *
  */
-class BaseServiceRequest extends \DTS\eBaySDK\Types\BaseType
+class BaseServiceRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace SONHH\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand $brand
- * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property \SONHH\eBaySDK\Order\Types\PaymentMethodBrand $brand
+ * @property \SONHH\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
  */
-class PaymentInstrument extends \DTS\eBaySDK\Types\BaseType
+class PaymentInstrument extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'brand' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
+            'type' => 'SONHH\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'brand'

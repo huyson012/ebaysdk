@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace SONHH\eBaySDK\Product\Types;
 
 /**
  *
  * @property string $invocationId
  * @property string $categoryId
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $productPropertyValue
- * @property \DTS\eBaySDK\Product\Types\Media[] $media
+ * @property \SONHH\eBaySDK\Product\Types\PropertyValue[] $productPropertyValue
+ * @property \SONHH\eBaySDK\Product\Types\Media[] $media
  */
-class ProductSubmission extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class ProductSubmission extends \SONHH\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,13 +36,13 @@ class ProductSubmission extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
             'elementName' => 'categoryId'
         ],
         'productPropertyValue' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'SONHH\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productPropertyValue'
         ],
         'media' => [
-            'type' => 'DTS\eBaySDK\Product\Types\Media',
+            'type' => 'SONHH\eBaySDK\Product\Types\Media',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'media'

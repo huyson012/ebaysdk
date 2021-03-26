@@ -8,32 +8,32 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalRetailPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumAdvertisedPrice
- * @property \DTS\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
- * @property \DTS\eBaySDK\Trading\Enums\PricingTreatmentCodeType $PricingTreatment
+ * @property \SONHH\eBaySDK\Trading\Types\AmountType $OriginalRetailPrice
+ * @property \SONHH\eBaySDK\Trading\Types\AmountType $MinimumAdvertisedPrice
+ * @property \SONHH\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType $MinimumAdvertisedPriceExposure
+ * @property \SONHH\eBaySDK\Trading\Enums\PricingTreatmentCodeType $PricingTreatment
  * @property boolean $SoldOneBay
  * @property boolean $SoldOffeBay
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MadeForOutletComparisonPrice
+ * @property \SONHH\eBaySDK\Trading\Types\AmountType $MadeForOutletComparisonPrice
  */
-class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
+class DiscountPriceInfoType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalRetailPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalRetailPrice'
         ],
         'MinimumAdvertisedPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumAdvertisedPrice'
@@ -63,7 +63,7 @@ class DiscountPriceInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SoldOffeBay'
         ],
         'MadeForOutletComparisonPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MadeForOutletComparisonPrice'

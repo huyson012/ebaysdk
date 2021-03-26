@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\Constants;
+namespace SONHH\eBaySDK\Constants;
 
 /**
  * Constants for specifing an eBay global ID.

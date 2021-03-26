@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType $ReturnSummary
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType $ReturnDetail
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\ReturnSummaryType $ReturnSummary
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\ReturnDetailType $ReturnDetail
  */
-class GetReturnDetailResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetReturnDetailResponse extends \SONHH\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnSummary' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnSummary'
         ],
         'ReturnDetail' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnDetailType',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\ReturnDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnDetail'

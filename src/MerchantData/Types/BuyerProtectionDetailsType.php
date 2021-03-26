@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerProtectionSourceCodeType $BuyerProtectionSource
- * @property \DTS\eBaySDK\MerchantData\Enums\BuyerProtectionCodeType $BuyerProtectionStatus
+ * @property \SONHH\eBaySDK\MerchantData\Enums\BuyerProtectionSourceCodeType $BuyerProtectionSource
+ * @property \SONHH\eBaySDK\MerchantData\Enums\BuyerProtectionCodeType $BuyerProtectionStatus
  */
-class BuyerProtectionDetailsType extends \DTS\eBaySDK\Types\BaseType
+class BuyerProtectionDetailsType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

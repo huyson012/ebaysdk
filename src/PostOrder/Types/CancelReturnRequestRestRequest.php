@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $returnId
  */
-class CancelReturnRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\CloseReturnRequest
+class CancelReturnRequestRestRequest extends \SONHH\eBaySDK\PostOrder\Types\CloseReturnRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

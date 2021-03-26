@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
@@ -17,9 +17,9 @@ namespace DTS\eBaySDK\MerchantData\Types;
  * @property integer $QuantitySold
  * @property integer $QuantityUnsold
  * @property double $SuccessPercent
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $AverageSellingPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $AverageSellingPrice
  */
-class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerProductInventoryStatusType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -56,7 +56,7 @@ class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseTy
             'elementName' => 'SuccessPercent'
         ],
         'AverageSellingPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AverageSellingPrice'

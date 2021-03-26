@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $firstOrderDate
- * @property \DTS\eBaySDK\Account\Types\TransactionSnapshot $transactionSnapshots
+ * @property \SONHH\eBaySDK\Account\Types\TransactionSnapshot $transactionSnapshots
  */
-class TransactionVolume extends \DTS\eBaySDK\Types\BaseType
+class TransactionVolume extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class TransactionVolume extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'firstOrderDate'
         ],
         'transactionSnapshots' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TransactionSnapshot',
+            'type' => 'SONHH\eBaySDK\Account\Types\TransactionSnapshot',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'transactionSnapshots'

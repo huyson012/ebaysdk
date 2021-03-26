@@ -8,11 +8,11 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace SONHH\eBaySDK\Browse\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Browse\Types\Image[] $additionalImages
+ * @property \SONHH\eBaySDK\Browse\Types\Image[] $additionalImages
  * @property string $ageGroup
  * @property integer $bidCount
  * @property string $brand
@@ -21,53 +21,53 @@ namespace DTS\eBaySDK\Browse\Types;
  * @property string $color
  * @property string $condition
  * @property string $conditionId
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $currentBidPrice
+ * @property \SONHH\eBaySDK\Browse\Types\ConvertedAmount $currentBidPrice
  * @property string $description
  * @property string $energyEfficiencyClass
  * @property string $epid
- * @property \DTS\eBaySDK\Browse\Types\EstimatedAvailability[] $estimatedAvailabilities
+ * @property \SONHH\eBaySDK\Browse\Types\EstimatedAvailability[] $estimatedAvailabilities
  * @property string $gender
  * @property string $gtin
- * @property \DTS\eBaySDK\Browse\Types\Image $image
+ * @property \SONHH\eBaySDK\Browse\Types\Image $image
  * @property string $itemAffiliateWebUrl
  * @property string $itemEndDate
  * @property string $itemId
- * @property \DTS\eBaySDK\Browse\Types\Address $itemLocation
+ * @property \SONHH\eBaySDK\Browse\Types\Address $itemLocation
  * @property string $itemWebUrl
- * @property \DTS\eBaySDK\Browse\Types\TypedNameValue[] $localizedAspects
- * @property \DTS\eBaySDK\Browse\Types\MarketingPrice $marketingPrice
+ * @property \SONHH\eBaySDK\Browse\Types\TypedNameValue[] $localizedAspects
+ * @property \SONHH\eBaySDK\Browse\Types\MarketingPrice $marketingPrice
  * @property string $material
  * @property string $mpn
  * @property string $pattern
- * @property \DTS\eBaySDK\Browse\Types\ConvertedAmount $price
- * @property \DTS\eBaySDK\Browse\Enums\PriceDisplayConditionEnum $priceDisplayCondition
- * @property \DTS\eBaySDK\Browse\Types\ItemGroupSummary $primaryItemGroup
- * @property \DTS\eBaySDK\Browse\Types\ReviewRating $primaryProductReviewRating
+ * @property \SONHH\eBaySDK\Browse\Types\ConvertedAmount $price
+ * @property \SONHH\eBaySDK\Browse\Enums\PriceDisplayConditionEnum $priceDisplayCondition
+ * @property \SONHH\eBaySDK\Browse\Types\ItemGroupSummary $primaryItemGroup
+ * @property \SONHH\eBaySDK\Browse\Types\ReviewRating $primaryProductReviewRating
  * @property string $productFicheWebUrl
  * @property integer $quantityLimitPerBuyer
- * @property \DTS\eBaySDK\Browse\Types\ItemReturnTerms $returnTerms
- * @property \DTS\eBaySDK\Browse\Types\Seller $seller
- * @property \DTS\eBaySDK\Browse\Types\ShippingOption[] $shippingOptions
- * @property \DTS\eBaySDK\Browse\Types\ShipToLocations $shipToLocations
+ * @property \SONHH\eBaySDK\Browse\Types\ItemReturnTerms $returnTerms
+ * @property \SONHH\eBaySDK\Browse\Types\Seller $seller
+ * @property \SONHH\eBaySDK\Browse\Types\ShippingOption[] $shippingOptions
+ * @property \SONHH\eBaySDK\Browse\Types\ShipToLocations $shipToLocations
  * @property string $shortDescription
  * @property string $size
  * @property string $sizeSystem
  * @property string $sizeType
  * @property string $subtitle
- * @property \DTS\eBaySDK\Browse\Types\Taxes[] $taxes
+ * @property \SONHH\eBaySDK\Browse\Types\Taxes[] $taxes
  * @property string $title
  * @property boolean $topRatedBuyingExperience
  * @property integer $uniqueBidderCount
- * @property \DTS\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
+ * @property \SONHH\eBaySDK\Browse\Types\ErrorDetailV3[] $warnings
  */
-class Item extends \DTS\eBaySDK\Types\BaseType
+class Item extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'additionalImages' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Image',
+            'type' => 'SONHH\eBaySDK\Browse\Types\Image',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'additionalImages'
@@ -121,7 +121,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'conditionId'
         ],
         'currentBidPrice' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'currentBidPrice'
@@ -145,7 +145,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'epid'
         ],
         'estimatedAvailabilities' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\EstimatedAvailability',
+            'type' => 'SONHH\eBaySDK\Browse\Types\EstimatedAvailability',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'estimatedAvailabilities'
@@ -163,7 +163,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'gtin'
         ],
         'image' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Image',
+            'type' => 'SONHH\eBaySDK\Browse\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'image'
@@ -187,7 +187,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'itemId'
         ],
         'itemLocation' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Address',
+            'type' => 'SONHH\eBaySDK\Browse\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemLocation'
@@ -199,13 +199,13 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'itemWebUrl'
         ],
         'localizedAspects' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\TypedNameValue',
+            'type' => 'SONHH\eBaySDK\Browse\Types\TypedNameValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'localizedAspects'
         ],
         'marketingPrice' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\MarketingPrice',
+            'type' => 'SONHH\eBaySDK\Browse\Types\MarketingPrice',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'marketingPrice'
@@ -229,7 +229,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'pattern'
         ],
         'price' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ConvertedAmount',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ConvertedAmount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'price'
@@ -241,13 +241,13 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'priceDisplayCondition'
         ],
         'primaryItemGroup' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ItemGroupSummary',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ItemGroupSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'primaryItemGroup'
         ],
         'primaryProductReviewRating' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ReviewRating',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ReviewRating',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'primaryProductReviewRating'
@@ -265,25 +265,25 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'quantityLimitPerBuyer'
         ],
         'returnTerms' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ItemReturnTerms',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ItemReturnTerms',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnTerms'
         ],
         'seller' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Seller',
+            'type' => 'SONHH\eBaySDK\Browse\Types\Seller',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'seller'
         ],
         'shippingOptions' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ShippingOption',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ShippingOption',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'shippingOptions'
         ],
         'shipToLocations' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ShipToLocations',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ShipToLocations',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocations'
@@ -319,7 +319,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'subtitle'
         ],
         'taxes' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\Taxes',
+            'type' => 'SONHH\eBaySDK\Browse\Types\Taxes',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'taxes'
@@ -343,7 +343,7 @@ class Item extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'uniqueBidderCount'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Browse\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Browse\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

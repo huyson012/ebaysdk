@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class GetVersionRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class GetVersionRequest extends \SONHH\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

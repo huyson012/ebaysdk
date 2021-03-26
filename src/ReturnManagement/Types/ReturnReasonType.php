@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  */
-class ReturnReasonType extends \DTS\eBaySDK\ReturnManagement\Types\EnumerationDetailType
+class ReturnReasonType extends \SONHH\eBaySDK\ReturnManagement\Types\EnumerationDetailType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace SONHH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $idref
  */
-class MoneyMovementRef extends \DTS\eBaySDK\Types\BaseType
+class MoneyMovementRef extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

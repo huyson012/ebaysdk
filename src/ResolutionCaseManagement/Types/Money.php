@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace SONHH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode $currencyCode
+ * @property \SONHH\eBaySDK\ResolutionCaseManagement\Enums\IsoCurrencyCode $currencyCode
  */
-class Money extends \DTS\eBaySDK\Types\DecimalType
+class Money extends \SONHH\eBaySDK\Types\DecimalType
 {
     /**
      * @var array Properties belonging to objects of this class.

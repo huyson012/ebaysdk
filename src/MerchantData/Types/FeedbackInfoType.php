@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $CommentText
- * @property \DTS\eBaySDK\MerchantData\Enums\CommentTypeCodeType $CommentType
+ * @property \SONHH\eBaySDK\MerchantData\Enums\CommentTypeCodeType $CommentType
  * @property string $TargetUser
  */
-class FeedbackInfoType extends \DTS\eBaySDK\Types\BaseType
+class FeedbackInfoType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Enums;
+namespace SONHH\eBaySDK\Metadata\Enums;
 
 class CountryCodeEnum
 {

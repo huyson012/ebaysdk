@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace SONHH\eBaySDK\Compliance\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
+ * @property \SONHH\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
  * @property string $listingId
  * @property string $sku
  * @property string $offerId
- * @property \DTS\eBaySDK\Compliance\Types\ComplianceDetail[] $violations
+ * @property \SONHH\eBaySDK\Compliance\Types\ComplianceDetail[] $violations
  */
-class ComplianceViolation extends \DTS\eBaySDK\Types\BaseType
+class ComplianceViolation extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class ComplianceViolation extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'offerId'
         ],
         'violations' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\ComplianceDetail',
+            'type' => 'SONHH\eBaySDK\Compliance\Types\ComplianceDetail',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'violations'

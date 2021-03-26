@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace SONHH\eBaySDK\Marketing\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Marketing\Types;
  * @property string $endDate
  * @property string $startDate
  */
-class UpdateCampaignIdentificationRequest extends \DTS\eBaySDK\Types\BaseType
+class UpdateCampaignIdentificationRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

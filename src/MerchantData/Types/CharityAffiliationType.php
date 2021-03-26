@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $id
- * @property \DTS\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType $type
+ * @property \SONHH\eBaySDK\MerchantData\Enums\CharityAffiliationTypeCodeType $type
  */
-class CharityAffiliationType extends \DTS\eBaySDK\Types\BaseType
+class CharityAffiliationType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

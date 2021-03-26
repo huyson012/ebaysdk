@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace SONHH\eBaySDK\Shopping\Types;
 
 /**
  *
  */
-class FindPopularSearchesRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class FindPopularSearchesRequestType extends \SONHH\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

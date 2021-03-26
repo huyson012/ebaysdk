@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \SONHH\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  */
-class AddItemFromSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class AddItemFromSellingManagerTemplateResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,7 +44,7 @@ class AddItemFromSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading
             'elementName' => 'EndTime'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'

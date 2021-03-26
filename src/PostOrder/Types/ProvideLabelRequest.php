@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrierEnum
  * @property string $carrierName
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property \SONHH\eBaySDK\PostOrder\Types\Text $comments
  * @property string $fileId
  * @property boolean $forwardShippingLabelProvided
- * @property \DTS\eBaySDK\PostOrder\Enums\LabelActionEnum $labelAction
+ * @property \SONHH\eBaySDK\PostOrder\Enums\LabelActionEnum $labelAction
  * @property string $labelId
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $labelSentDate
- * @property \DTS\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum $noLabelReason
- * @property \DTS\eBaySDK\PostOrder\Types\B:Amount $returnLabelCost
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $labelSentDate
+ * @property \SONHH\eBaySDK\PostOrder\Enums\NoSellerUploadLabelReasonEnum $noLabelReason
+ * @property \SONHH\eBaySDK\PostOrder\Types\B:Amount $returnLabelCost
  * @property string $trackingNumber
  */
-class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
+class ProvideLabelRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,7 +43,7 @@ class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'carrierName'
         ],
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'
@@ -73,7 +73,7 @@ class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'labelId'
         ],
         'labelSentDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'labelSentDate'
@@ -85,7 +85,7 @@ class ProvideLabelRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'noLabelReason'
         ],
         'returnLabelCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\B:Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\B:Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnLabelCost'

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Enums;
+namespace SONHH\eBaySDK\Account\Enums;
 
 class RegionTypeEnum
 {

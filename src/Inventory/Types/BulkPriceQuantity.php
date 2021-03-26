@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\PriceQuantity[] $requests
+ * @property \SONHH\eBaySDK\Inventory\Types\PriceQuantity[] $requests
  */
-class BulkPriceQuantity extends \DTS\eBaySDK\Types\BaseType
+class BulkPriceQuantity extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\PriceQuantity',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\PriceQuantity',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'requests'

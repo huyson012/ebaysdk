@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalPrice
+ * @property \SONHH\eBaySDK\Trading\Types\AmountType $OriginalPrice
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
  */
-class PromotionalSaleDetailsType extends \DTS\eBaySDK\Types\BaseType
+class PromotionalSaleDetailsType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OriginalPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OriginalPrice'

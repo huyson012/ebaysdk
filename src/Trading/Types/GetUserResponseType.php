@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\UserType $User
+ * @property \SONHH\eBaySDK\Trading\Types\UserType $User
  */
-class GetUserResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetUserResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'User' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'User'

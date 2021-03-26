@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace SONHH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $propertyName
- * @property \DTS\eBaySDK\ProductMetadata\Types\Value $value
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue[] $childPropertyNameValue
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\Value $value
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\PropertyNameValue[] $childPropertyNameValue
  */
-class PropertyNameValue extends \DTS\eBaySDK\Types\BaseType
+class PropertyNameValue extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -29,13 +29,13 @@ class PropertyNameValue extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'propertyName'
         ],
         'value' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Value',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\Value',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'value'
         ],
         'childPropertyNameValue' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\PropertyNameValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'childPropertyNameValue'

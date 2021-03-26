@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
@@ -27,7 +27,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ORRA
  * @property boolean $LSD
  */
-class CategoryType extends \DTS\eBaySDK\Types\BaseType
+class CategoryType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

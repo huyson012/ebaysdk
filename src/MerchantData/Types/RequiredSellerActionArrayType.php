@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\RequiredSellerActionCodeType[] $RequiredSellerAction
+ * @property \SONHH\eBaySDK\MerchantData\Enums\RequiredSellerActionCodeType[] $RequiredSellerAction
  */
-class RequiredSellerActionArrayType extends \DTS\eBaySDK\Types\BaseType
+class RequiredSellerActionArrayType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

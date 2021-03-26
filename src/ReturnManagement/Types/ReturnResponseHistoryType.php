@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property string $note
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $author
- * @property \DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType $activityDetail
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\ReturnUserType $author
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\ActivityDetailType $activityDetail
  * @property \DateTime $creationDate
  */
-class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
+class ReturnResponseHistoryType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class ReturnResponseHistoryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'note'
         ],
         'author' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'author'
         ],
         'activityDetail' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ActivityDetailType',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\ActivityDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'activityDetail'

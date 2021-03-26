@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace SONHH\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $unit
  */
-class Distance extends \DTS\eBaySDK\Types\DoubleType
+class Distance extends \SONHH\eBaySDK\Types\DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

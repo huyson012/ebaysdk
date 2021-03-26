@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace SONHH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $propertyName
  * @property string[] $alternatePropertyName
  * @property string $dataType
- * @property \DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation $typeSpecificInformation
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\TypeSpecificInformation $typeSpecificInformation
  * @property boolean $multiValued
  * @property string $canonicalName
- * @property \DTS\eBaySDK\ProductMetadata\Types\Tag[] $propertyTags
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\Tag[] $propertyTags
  * @property string $description
  */
-class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
+class PropertyMetadata extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -46,7 +46,7 @@ class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'dataType'
         ],
         'typeSpecificInformation' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\TypeSpecificInformation',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\TypeSpecificInformation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'typeSpecificInformation'
@@ -64,7 +64,7 @@ class PropertyMetadata extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'canonicalName'
         ],
         'propertyTags' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\Tag',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\Tag',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'propertyTags'

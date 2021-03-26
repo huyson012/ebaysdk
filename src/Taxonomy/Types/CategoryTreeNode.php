@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace SONHH\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\Category $category
+ * @property \SONHH\eBaySDK\Taxonomy\Types\Category $category
  * @property integer $categoryTreeNodeLevel
- * @property \DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode[] $childCategoryTreeNodes
+ * @property \SONHH\eBaySDK\Taxonomy\Types\CategoryTreeNode[] $childCategoryTreeNodes
  * @property boolean $leafCategoryTreeNode
  * @property string $parentCategoryTreeNodeHref
  */
-class CategoryTreeNode extends \DTS\eBaySDK\Types\BaseType
+class CategoryTreeNode extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'category' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\Category',
+            'type' => 'SONHH\eBaySDK\Taxonomy\Types\Category',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'category'
@@ -37,7 +37,7 @@ class CategoryTreeNode extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'categoryTreeNodeLevel'
         ],
         'childCategoryTreeNodes' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\CategoryTreeNode',
+            'type' => 'SONHH\eBaySDK\Taxonomy\Types\CategoryTreeNode',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'childCategoryTreeNodes'

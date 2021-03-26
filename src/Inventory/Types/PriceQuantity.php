@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\OfferPriceQuantity[] $offers
- * @property \DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
+ * @property \SONHH\eBaySDK\Inventory\Types\OfferPriceQuantity[] $offers
+ * @property \SONHH\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
  * @property string $sku
  */
-class PriceQuantity extends \DTS\eBaySDK\Types\BaseType
+class PriceQuantity extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'offers' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\OfferPriceQuantity',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\OfferPriceQuantity',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'offers'
         ],
         'shipToLocationAvailability' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\ShipToLocationAvailability',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocationAvailability'

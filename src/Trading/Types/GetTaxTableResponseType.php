@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $LastUpdateTime
- * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property \SONHH\eBaySDK\Trading\Types\TaxTableType $TaxTable
  */
-class GetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetTaxTableResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class GetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespons
             'elementName' => 'LastUpdateTime'
         ],
         'TaxTable' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TaxTableType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\TaxTableType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TaxTable'

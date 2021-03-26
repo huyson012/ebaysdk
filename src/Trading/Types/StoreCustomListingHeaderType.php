@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType $DisplayType
+ * @property \SONHH\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType $DisplayType
  * @property boolean $Logo
  * @property boolean $SearchBox
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType[] $LinkToInclude
+ * @property \SONHH\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType[] $LinkToInclude
  * @property boolean $AddToFavoriteStores
  * @property boolean $SignUpForStoreNewsletter
  */
-class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
+class StoreCustomListingHeaderType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,7 +44,7 @@ class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SearchBox'
         ],
         'LinkToInclude' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'LinkToInclude'

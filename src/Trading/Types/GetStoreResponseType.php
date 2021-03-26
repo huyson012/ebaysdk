@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\StoreType $Store
+ * @property \SONHH\eBaySDK\Trading\Types\StoreType $Store
  */
-class GetStoreResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetStoreResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Store' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\StoreType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Store'

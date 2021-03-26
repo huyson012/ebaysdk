@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Enums;
+namespace SONHH\eBaySDK\Order\Enums;
 
 class PaymentMethodBrandEnum
 {

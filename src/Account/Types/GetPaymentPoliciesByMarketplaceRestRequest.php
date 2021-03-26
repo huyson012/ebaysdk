@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $marketplace_id
  */
-class GetPaymentPoliciesByMarketplaceRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetPaymentPoliciesByMarketplaceRestRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

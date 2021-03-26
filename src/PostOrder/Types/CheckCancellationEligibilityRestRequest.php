@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  */
-class CheckCancellationEligibilityRestRequest extends \DTS\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo
+class CheckCancellationEligibilityRestRequest extends \SONHH\eBaySDK\PostOrder\Types\OrderEligibilityCheckInfo
 {
     /**
      * @var array Properties belonging to objects of this class.

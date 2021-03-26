@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace SONHH\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $aspectName
- * @property \DTS\eBaySDK\Catalog\Types\CorrectionAspectValue[] $values
+ * @property \SONHH\eBaySDK\Catalog\Types\CorrectionAspectValue[] $values
  */
-class CorrectionAspectValues extends \DTS\eBaySDK\Types\BaseType
+class CorrectionAspectValues extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class CorrectionAspectValues extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'aspectName'
         ],
         'values' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\CorrectionAspectValue',
+            'type' => 'SONHH\eBaySDK\Catalog\Types\CorrectionAspectValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'values'

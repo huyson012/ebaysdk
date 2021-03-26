@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
  */
-class GetActivityOptionsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class GetActivityOptionsRequest extends \SONHH\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnId'

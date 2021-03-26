@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ActualRefundDetailType $actualRefundDetail
- * @property \DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType $estimatedRefundDetail
+ * @property \SONHH\eBaySDK\PostOrder\Types\ActualRefundDetailType $actualRefundDetail
+ * @property \SONHH\eBaySDK\PostOrder\Types\EstimatedRefundDetailType $estimatedRefundDetail
  */
-class RefundInfoType extends \DTS\eBaySDK\Types\BaseType
+class RefundInfoType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actualRefundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ActualRefundDetailType',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\ActualRefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actualRefundDetail'
         ],
         'estimatedRefundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\EstimatedRefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedRefundDetail'

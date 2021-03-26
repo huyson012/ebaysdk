@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
  * @property boolean $default
- * @property \DTS\eBaySDK\Account\Enums\CategoryTypeEnum $name
+ * @property \SONHH\eBaySDK\Account\Enums\CategoryTypeEnum $name
  */
-class CategoryType extends \DTS\eBaySDK\Types\BaseType
+class CategoryType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

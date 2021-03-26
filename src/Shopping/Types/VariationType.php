@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace SONHH\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\Shopping\Types\AmountType $StartPrice
+ * @property \SONHH\eBaySDK\Shopping\Types\AmountType $StartPrice
  * @property integer $Quantity
- * @property \DTS\eBaySDK\Shopping\Types\NameValueListArrayType[] $VariationSpecifics
- * @property \DTS\eBaySDK\Shopping\Types\SellingStatusType $SellingStatus
- * @property \DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property \SONHH\eBaySDK\Shopping\Types\NameValueListArrayType[] $VariationSpecifics
+ * @property \SONHH\eBaySDK\Shopping\Types\SellingStatusType $SellingStatus
+ * @property \SONHH\eBaySDK\Shopping\Types\DiscountPriceInfoType $DiscountPriceInfo
  */
-class VariationType extends \DTS\eBaySDK\Types\BaseType
+class VariationType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -32,7 +32,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'StartPrice' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\Shopping\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
@@ -44,19 +44,19 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Quantity'
         ],
         'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\NameValueListArrayType',
+            'type' => 'SONHH\eBaySDK\Shopping\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
         ],
         'SellingStatus' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\SellingStatusType',
+            'type' => 'SONHH\eBaySDK\Shopping\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'
         ],
         'DiscountPriceInfo' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\DiscountPriceInfoType',
+            'type' => 'SONHH\eBaySDK\Shopping\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DiscountPriceInfo'

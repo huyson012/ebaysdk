@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace SONHH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $metadataVersion
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyValues
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue $propertyValuesTree
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\PropertyValue[] $propertyValues
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\PropertyNameValue $propertyValuesTree
  * @property boolean $treeFormat
  */
-class GetCompatibilitySearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse
+class GetCompatibilitySearchValuesResponse extends \SONHH\eBaySDK\ProductMetadata\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,13 +30,13 @@ class GetCompatibilitySearchValuesResponse extends \DTS\eBaySDK\ProductMetadata\
             'elementName' => 'metadataVersion'
         ],
         'propertyValues' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyValue',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'propertyValues'
         ],
         'propertyValuesTree' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\PropertyNameValue',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'propertyValuesTree'

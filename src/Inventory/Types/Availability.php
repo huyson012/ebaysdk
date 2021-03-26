@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability[] $pickupAtLocationAvailability
- * @property \DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
+ * @property \SONHH\eBaySDK\Inventory\Types\PickupAtLocationAvailability[] $pickupAtLocationAvailability
+ * @property \SONHH\eBaySDK\Inventory\Types\ShipToLocationAvailability $shipToLocationAvailability
  */
-class Availability extends \DTS\eBaySDK\Types\BaseType
+class Availability extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'pickupAtLocationAvailability' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\PickupAtLocationAvailability',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\PickupAtLocationAvailability',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'pickupAtLocationAvailability'
         ],
         'shipToLocationAvailability' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\ShipToLocationAvailability',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipToLocationAvailability'

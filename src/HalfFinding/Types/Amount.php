@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace SONHH\eBaySDK\HalfFinding\Types;
 
 /**
  *
  * @property string $currencyId
  */
-class Amount extends \DTS\eBaySDK\Types\DoubleType
+class Amount extends \SONHH\eBaySDK\Types\DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

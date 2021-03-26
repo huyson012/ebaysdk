@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
+ * @property \SONHH\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
  * @property integer $FolderID
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $ExternalMessageIDs
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \SONHH\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $ExternalMessageIDs
+ * @property \SONHH\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property boolean $IncludeHighPriorityMessageOnly
  */
-class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMyMessagesRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MessageIDs' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MessageIDs'
@@ -51,13 +51,13 @@ class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
             'elementName' => 'EndTime'
         ],
         'ExternalMessageIDs' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ExternalMessageIDs'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

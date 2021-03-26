@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $itemId
  * @property string $transactionId
  */
-class CheckInquiryEligibilityRequest extends \DTS\eBaySDK\Types\BaseType
+class CheckInquiryEligibilityRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

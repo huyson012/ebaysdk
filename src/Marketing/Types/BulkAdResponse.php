@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace SONHH\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\AdResponse[] $responses
+ * @property \SONHH\eBaySDK\Marketing\Types\AdResponse[] $responses
  */
-class BulkAdResponse extends \DTS\eBaySDK\Types\BaseType
+class BulkAdResponse extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'responses' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\AdResponse',
+            'type' => 'SONHH\eBaySDK\Marketing\Types\AdResponse',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'responses'

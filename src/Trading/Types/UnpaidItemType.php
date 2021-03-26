@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType $Status
- * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType $Type
+ * @property \SONHH\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType $Status
+ * @property \SONHH\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType $Type
  */
-class UnpaidItemType extends \DTS\eBaySDK\Types\BaseType
+class UnpaidItemType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

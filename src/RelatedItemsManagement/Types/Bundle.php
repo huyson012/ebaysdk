@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace SONHH\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
@@ -17,12 +17,12 @@ namespace DTS\eBaySDK\RelatedItemsManagement\Types;
  * @property string[] $primarySKU
  * @property \DateTime $scheduledStartTime
  * @property \DateTime $scheduledEndTime
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup[] $relatedProductGroup
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
+ * @property \SONHH\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup[] $relatedProductGroup
+ * @property \SONHH\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $bundleStatus
  * @property integer $isoCurrencyCode
  * @property string $site
  */
-class Bundle extends \DTS\eBaySDK\Types\BaseType
+class Bundle extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -59,7 +59,7 @@ class Bundle extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'scheduledEndTime'
         ],
         'relatedProductGroup' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup',
+            'type' => 'SONHH\eBaySDK\RelatedItemsManagement\Types\RelatedProductGroup',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'relatedProductGroup'

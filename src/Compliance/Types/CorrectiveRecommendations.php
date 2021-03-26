@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace SONHH\eBaySDK\Compliance\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Types\ProductRecommendation $productRecommendation
+ * @property \SONHH\eBaySDK\Compliance\Types\ProductRecommendation $productRecommendation
  */
-class CorrectiveRecommendations extends \DTS\eBaySDK\Types\BaseType
+class CorrectiveRecommendations extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productRecommendation' => [
-            'type' => 'DTS\eBaySDK\Compliance\Types\ProductRecommendation',
+            'type' => 'SONHH\eBaySDK\Compliance\Types\ProductRecommendation',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productRecommendation'

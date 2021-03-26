@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $Value
- * @property \DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType $ValidationRules
+ * @property \SONHH\eBaySDK\Trading\Types\RecommendationValidationRulesType $ValidationRules
  */
-class ValueRecommendationType extends \DTS\eBaySDK\Types\BaseType
+class ValueRecommendationType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class ValueRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Value'
         ],
         'ValidationRules' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\RecommendationValidationRulesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ValidationRules'

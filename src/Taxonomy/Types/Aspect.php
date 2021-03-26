@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace SONHH\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\AspectConstraint $aspectConstraint
- * @property \DTS\eBaySDK\Taxonomy\Types\AspectValue[] $aspectValues
+ * @property \SONHH\eBaySDK\Taxonomy\Types\AspectConstraint $aspectConstraint
+ * @property \SONHH\eBaySDK\Taxonomy\Types\AspectValue[] $aspectValues
  * @property string $localizedAspectName
  */
-class Aspect extends \DTS\eBaySDK\Types\BaseType
+class Aspect extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspectConstraint' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\AspectConstraint',
+            'type' => 'SONHH\eBaySDK\Taxonomy\Types\AspectConstraint',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectConstraint'
         ],
         'aspectValues' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\AspectValue',
+            'type' => 'SONHH\eBaySDK\Taxonomy\Types\AspectValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspectValues'

@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Types;
+namespace SONHH\eBaySDK\Feedback\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Feedback\Types\DateRange $dateRange
+ * @property \SONHH\eBaySDK\Feedback\Types\DateRange $dateRange
  * @property string $dateRangeEventType
  * @property string[] $categoryId
  */
-class CreateDSRSummaryByCategoryRequest extends \DTS\eBaySDK\Feedback\Types\BaseServiceRequest
+class CreateDSRSummaryByCategoryRequest extends \SONHH\eBaySDK\Feedback\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'dateRange' => [
-            'type' => 'DTS\eBaySDK\Feedback\Types\DateRange',
+            'type' => 'SONHH\eBaySDK\Feedback\Types\DateRange',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dateRange'

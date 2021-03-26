@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionRecordTypeCodeType $DisputeResolutionRecordType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
+ * @property \SONHH\eBaySDK\Trading\Enums\DisputeResolutionRecordTypeCodeType $DisputeResolutionRecordType
+ * @property \SONHH\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
  * @property \DateTime $ResolutionTime
  */
-class DisputeResolutionType extends \DTS\eBaySDK\Types\BaseType
+class DisputeResolutionType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

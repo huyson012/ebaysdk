@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $addressLine1
  * @property string $addressLine2
- * @property \DTS\eBaySDK\PostOrder\Enums\AddressTypeEnum $addressType
+ * @property \SONHH\eBaySDK\PostOrder\Enums\AddressTypeEnum $addressType
  * @property string $city
- * @property \DTS\eBaySDK\PostOrder\Enums\CountryCodeEnum $country
+ * @property \SONHH\eBaySDK\PostOrder\Enums\CountryCodeEnum $country
  * @property string $county
  * @property boolean $isTransliterated
  * @property string $nationalRegion
  * @property string $postalCode
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum $script
+ * @property \SONHH\eBaySDK\PostOrder\Enums\LanguageScriptEnum $script
  * @property string $stateOrProvince
- * @property \DTS\eBaySDK\PostOrder\Enums\LanguageScriptEnum $transliteratedFromScript
- * @property \DTS\eBaySDK\PostOrder\Enums\WorldRegionEnum $worldRegion
+ * @property \SONHH\eBaySDK\PostOrder\Enums\LanguageScriptEnum $transliteratedFromScript
+ * @property \SONHH\eBaySDK\PostOrder\Enums\WorldRegionEnum $worldRegion
  */
-class Address extends \DTS\eBaySDK\Types\BaseType
+class Address extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

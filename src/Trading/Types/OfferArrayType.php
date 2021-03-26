@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OfferType[] $Offer
+ * @property \SONHH\eBaySDK\Trading\Types\OfferType[] $Offer
  */
-class OfferArrayType extends \DTS\eBaySDK\Types\BaseType
+class OfferArrayType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Offer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OfferType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\OfferType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Offer'

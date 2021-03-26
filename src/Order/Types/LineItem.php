@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace SONHH\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\Image $image
+ * @property \SONHH\eBaySDK\Order\Types\Image $image
  * @property string $itemId
  * @property string $lineItemId
- * @property \DTS\eBaySDK\Order\Enums\LineItemPaymentStatusEnum $lineItemPaymentStatus
- * @property \DTS\eBaySDK\Order\Enums\LineItemStatusEnum $lineItemStatus
- * @property \DTS\eBaySDK\Order\Types\Amount $netPrice
+ * @property \SONHH\eBaySDK\Order\Enums\LineItemPaymentStatusEnum $lineItemPaymentStatus
+ * @property \SONHH\eBaySDK\Order\Enums\LineItemStatusEnum $lineItemStatus
+ * @property \SONHH\eBaySDK\Order\Types\Amount $netPrice
  * @property integer $quantity
- * @property \DTS\eBaySDK\Order\Types\Seller $seller
- * @property \DTS\eBaySDK\Order\Types\ShippingDetail $shippingDetail
+ * @property \SONHH\eBaySDK\Order\Types\Seller $seller
+ * @property \SONHH\eBaySDK\Order\Types\ShippingDetail $shippingDetail
  * @property string $title
  */
-class LineItem extends \DTS\eBaySDK\Types\BaseType
+class LineItem extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'image' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Image',
+            'type' => 'SONHH\eBaySDK\Order\Types\Image',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'image'
@@ -60,7 +60,7 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'lineItemStatus'
         ],
         'netPrice' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Order\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'netPrice'
@@ -72,13 +72,13 @@ class LineItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'quantity'
         ],
         'seller' => [
-            'type' => 'DTS\eBaySDK\Order\Types\Seller',
+            'type' => 'SONHH\eBaySDK\Order\Types\Seller',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'seller'
         ],
         'shippingDetail' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ShippingDetail',
+            'type' => 'SONHH\eBaySDK\Order\Types\ShippingDetail',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingDetail'

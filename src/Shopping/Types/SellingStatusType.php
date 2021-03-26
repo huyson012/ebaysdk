@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace SONHH\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property integer $QuantitySold
  * @property integer $QuantitySoldByPickupInStore
  */
-class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
+class SellingStatusType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

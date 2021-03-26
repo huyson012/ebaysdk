@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace SONHH\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Enums\AckValue $ack
- * @property \DTS\eBaySDK\HalfFinding\Types\ErrorMessage $errorMessage
+ * @property \SONHH\eBaySDK\HalfFinding\Enums\AckValue $ack
+ * @property \SONHH\eBaySDK\HalfFinding\Types\ErrorMessage $errorMessage
  * @property string $version
  * @property \DateTime $timestamp
- * @property \DTS\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
+ * @property \SONHH\eBaySDK\HalfFinding\Types\ExtensionType[] $extension
  */
-class BaseResponse extends \DTS\eBaySDK\Types\BaseType
+class BaseResponse extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class BaseResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ack'
         ],
         'errorMessage' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ErrorMessage',
+            'type' => 'SONHH\eBaySDK\HalfFinding\Types\ErrorMessage',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'errorMessage'
@@ -49,7 +49,7 @@ class BaseResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'timestamp'
         ],
         'extension' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ExtensionType',
+            'type' => 'SONHH\eBaySDK\HalfFinding\Types\ExtensionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'extension'

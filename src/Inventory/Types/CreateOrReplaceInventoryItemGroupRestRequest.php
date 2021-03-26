@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string $inventoryItemGroupKey
  */
-class CreateOrReplaceInventoryItemGroupRestRequest extends \DTS\eBaySDK\Inventory\Types\InventoryItemGroup
+class CreateOrReplaceInventoryItemGroupRestRequest extends \SONHH\eBaySDK\Inventory\Types\InventoryItemGroup
 {
     /**
      * @var array Properties belonging to objects of this class.

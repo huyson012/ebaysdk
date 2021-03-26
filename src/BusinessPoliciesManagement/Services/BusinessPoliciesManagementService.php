@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Services;
+namespace SONHH\eBaySDK\BusinessPoliciesManagement\Services;
 
-class BusinessPoliciesManagementService extends \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementBaseService
+class BusinessPoliciesManagementService extends \SONHH\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementBaseService
 {
     const API_VERSION = '1.0.0';
 
@@ -23,200 +23,200 @@ class BusinessPoliciesManagementService extends \DTS\eBaySDK\BusinessPoliciesMan
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetVersionResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetVersionResponse
      */
-    public function getVersion(\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request)
+    public function getVersion(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request)
     {
         return $this->getVersionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getVersionAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request)
+    public function getVersionAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetVersionRequest $request)
     {
         return $this->callOperationAsync(
             'getVersion',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetVersionResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetVersionResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse
      */
-    public function removeProfile(\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request)
+    public function removeProfile(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request)
     {
         return $this->removeProfileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function removeProfileAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request)
+    public function removeProfileAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileRequest $request)
     {
         return $this->callOperationAsync(
             'removeProfile',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse
      */
-    public function addSellerProfile(\DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request)
+    public function addSellerProfile(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request)
     {
         return $this->addSellerProfileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function addSellerProfileAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request)
+    public function addSellerProfileAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileRequest $request)
     {
         return $this->callOperationAsync(
             'addSellerProfile',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesResponse
      */
-    public function getSellerProfiles(\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request)
+    public function getSellerProfiles(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request)
     {
         return $this->getSellerProfilesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getSellerProfilesAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request)
+    public function getSellerProfilesAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest $request)
     {
         return $this->callOperationAsync(
             'getSellerProfiles',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileResponse
      */
-    public function setSellerProfile(\DTS\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request)
+    public function setSellerProfile(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request)
     {
         return $this->setSellerProfileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function setSellerProfileAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request)
+    public function setSellerProfileAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileRequest $request)
     {
         return $this->callOperationAsync(
             'setSellerProfile',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\SetSellerProfileResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesResponse
      */
-    public function removeSellerProfiles(\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request)
+    public function removeSellerProfiles(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request)
     {
         return $this->removeSellerProfilesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function removeSellerProfilesAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request)
+    public function removeSellerProfilesAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesRequest $request)
     {
         return $this->callOperationAsync(
             'removeSellerProfiles',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveSellerProfilesResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesResponse
      */
-    public function consolidateShippingProfiles(\DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request)
+    public function consolidateShippingProfiles(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request)
     {
         return $this->consolidateShippingProfilesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function consolidateShippingProfilesAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request)
+    public function consolidateShippingProfilesAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesRequest $request)
     {
         return $this->callOperationAsync(
             'consolidateShippingProfiles',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\ConsolidateShippingProfilesResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusResponse
      */
-    public function getConsolidationJobStatus(\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request)
+    public function getConsolidationJobStatus(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request)
     {
         return $this->getConsolidationJobStatusAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getConsolidationJobStatusAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request)
+    public function getConsolidationJobStatusAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusRequest $request)
     {
         return $this->callOperationAsync(
             'getConsolidationJobStatus',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\GetConsolidationJobStatusResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request
-     * @return \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request
+     * @return \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse
      */
-    public function removeOverrides(\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request)
+    public function removeOverrides(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request)
     {
         return $this->removeOverridesAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request
+     * @param \SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function removeOverridesAsync(\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request)
+    public function removeOverridesAsync(\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesRequest $request)
     {
         return $this->callOperationAsync(
             'removeOverrides',
             $request,
-            '\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse'
+            '\SONHH\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse'
         );
     }
 }

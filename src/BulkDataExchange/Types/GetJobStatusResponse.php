@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace SONHH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BulkDataExchange\Types\JobProfile[] $jobProfile
+ * @property \SONHH\eBaySDK\BulkDataExchange\Types\JobProfile[] $jobProfile
  */
-class GetJobStatusResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class GetJobStatusResponse extends \SONHH\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'jobProfile' => [
-            'type' => 'DTS\eBaySDK\BulkDataExchange\Types\JobProfile',
+            'type' => 'SONHH\eBaySDK\BulkDataExchange\Types\JobProfile',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'jobProfile'

@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property integer $availableQuantity
  * @property string $categoryId
  * @property string $listingDescription
- * @property \DTS\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
+ * @property \SONHH\eBaySDK\Inventory\Types\ListingPolicies $listingPolicies
  * @property string $merchantLocationKey
- * @property \DTS\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
+ * @property \SONHH\eBaySDK\Inventory\Types\PricingSummary $pricingSummary
  * @property integer $quantityLimitPerBuyer
  * @property string[] $storeCategoryNames
- * @property \DTS\eBaySDK\Inventory\Types\Tax $tax
+ * @property \SONHH\eBaySDK\Inventory\Types\Tax $tax
  */
-class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
+class EbayOfferDetailsWithId extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -47,7 +47,7 @@ class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'listingDescription'
         ],
         'listingPolicies' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ListingPolicies',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\ListingPolicies',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'listingPolicies'
@@ -59,7 +59,7 @@ class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'merchantLocationKey'
         ],
         'pricingSummary' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\PricingSummary',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
@@ -77,7 +77,7 @@ class EbayOfferDetailsWithId extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'storeCategoryNames'
         ],
         'tax' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Tax',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\Tax',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'tax'

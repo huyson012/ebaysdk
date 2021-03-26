@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace SONHH\eBaySDK\Product\Types;
 
 /**
  *
  * @property string $value
  */
-class URIValue extends \DTS\eBaySDK\Types\BaseType
+class URIValue extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

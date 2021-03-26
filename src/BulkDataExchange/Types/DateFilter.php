@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace SONHH\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property \DateTime $startTime
  * @property \DateTime $endTime
  */
-class DateFilter extends \DTS\eBaySDK\Types\BaseType
+class DateFilter extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

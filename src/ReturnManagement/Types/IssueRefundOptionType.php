@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property integer $daysToRefundBuyer
  */
-class IssueRefundOptionType extends \DTS\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
+class IssueRefundOptionType extends \SONHH\eBaySDK\ReturnManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace SONHH\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\CampaignCriterion $campaignCriterion
+ * @property \SONHH\eBaySDK\Marketing\Types\CampaignCriterion $campaignCriterion
  * @property string $campaignName
  * @property string $endDate
- * @property \DTS\eBaySDK\Marketing\Types\FundingStrategy $fundingStrategy
- * @property \DTS\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \SONHH\eBaySDK\Marketing\Types\FundingStrategy $fundingStrategy
+ * @property \SONHH\eBaySDK\Marketing\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $startDate
  */
-class CreateCampaignRequest extends \DTS\eBaySDK\Types\BaseType
+class CreateCampaignRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'campaignCriterion' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\CampaignCriterion',
+            'type' => 'SONHH\eBaySDK\Marketing\Types\CampaignCriterion',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'campaignCriterion'
@@ -44,7 +44,7 @@ class CreateCampaignRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'endDate'
         ],
         'fundingStrategy' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\FundingStrategy',
+            'type' => 'SONHH\eBaySDK\Marketing\Types\FundingStrategy',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'fundingStrategy'

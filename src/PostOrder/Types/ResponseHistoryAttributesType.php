@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $carrierUsed
  * @property string $escalateReason
- * @property \DTS\eBaySDK\PostOrder\Types\MoneyMovementRef $moneyMovementRef
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
+ * @property \SONHH\eBaySDK\PostOrder\Types\MoneyMovementRef $moneyMovementRef
+ * @property \SONHH\eBaySDK\PostOrder\Types\Amount $partialRefundAmount
  * @property string $RMA
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnAddressType $sellerReturnAddress
+ * @property \SONHH\eBaySDK\PostOrder\Types\ReturnAddressType $sellerReturnAddress
  * @property string $toEmailAddress
  * @property string $trackingNumber
  */
-class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
+class ResponseHistoryAttributesType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -40,13 +40,13 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'escalateReason'
         ],
         'moneyMovementRef' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\MoneyMovementRef',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\MoneyMovementRef',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'moneyMovementRef'
         ],
         'partialRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'partialRefundAmount'
@@ -58,7 +58,7 @@ class ResponseHistoryAttributesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'RMA'
         ],
         'sellerReturnAddress' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnAddressType',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\ReturnAddressType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerReturnAddress'

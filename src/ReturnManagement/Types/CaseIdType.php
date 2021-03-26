@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property string $id
- * @property \DTS\eBaySDK\ReturnManagement\Enums\CaseType $type
+ * @property \SONHH\eBaySDK\ReturnManagement\Enums\CaseType $type
  */
-class CaseIdType extends \DTS\eBaySDK\Types\BaseType
+class CaseIdType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,42 +8,42 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace SONHH\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\SoldAggregatedMetrics $calendarWindowAggregatedMetrics
- * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
- * @property \DTS\eBaySDK\Account\Types\SoldAggregatedMetrics $rollingWindowAggregatedMetrics
- * @property \DTS\eBaySDK\Account\Types\Amount $soldInventoryValue
+ * @property \SONHH\eBaySDK\Account\Types\SoldAggregatedMetrics $calendarWindowAggregatedMetrics
+ * @property \SONHH\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
+ * @property \SONHH\eBaySDK\Account\Types\SoldAggregatedMetrics $rollingWindowAggregatedMetrics
+ * @property \SONHH\eBaySDK\Account\Types\Amount $soldInventoryValue
  * @property integer $soldQuantity
  */
-class TransactionSnapshot extends \DTS\eBaySDK\Types\BaseType
+class TransactionSnapshot extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'calendarWindowAggregatedMetrics' => [
-            'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
+            'type' => 'SONHH\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'calendarWindowAggregatedMetrics'
         ],
         'lookbackPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
+            'type' => 'SONHH\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lookbackPeriod'
         ],
         'rollingWindowAggregatedMetrics' => [
-            'type' => 'DTS\eBaySDK\Account\Types\SoldAggregatedMetrics',
+            'type' => 'SONHH\eBaySDK\Account\Types\SoldAggregatedMetrics',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'rollingWindowAggregatedMetrics'
         ],
         'soldInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'SONHH\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'soldInventoryValue'

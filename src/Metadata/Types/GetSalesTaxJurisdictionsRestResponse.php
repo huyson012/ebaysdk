@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Types;
+namespace SONHH\eBaySDK\Metadata\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use SONHH\eBaySDK\StatusCodeTrait;
+use SONHH\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property \SONHH\eBaySDK\Metadata\Types\ErrorDetailV3[] $errors
+ * @property \SONHH\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */
-class GetSalesTaxJurisdictionsRestResponse extends \DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions
+class GetSalesTaxJurisdictionsRestResponse extends \SONHH\eBaySDK\Metadata\Types\SalesTaxJurisdictions
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetSalesTaxJurisdictionsRestResponse extends \DTS\eBaySDK\Metadata\Types\S
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'SONHH\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

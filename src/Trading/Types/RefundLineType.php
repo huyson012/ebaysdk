@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class RefundLineType extends \DTS\eBaySDK\Trading\Types\AmountType
+class RefundLineType extends \SONHH\eBaySDK\Trading\Types\AmountType
 {
     /**
      * @var array Properties belonging to objects of this class.

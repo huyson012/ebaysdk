@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \SONHH\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property \SONHH\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
-class PaginatedItemArrayType extends \DTS\eBaySDK\Types\BaseType
+class PaginatedItemArrayType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemArray'
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

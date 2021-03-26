@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace SONHH\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType $productID
- * @property \DTS\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
- * @property \DTS\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\HalfFinding\Types\SortByType $sortBy
+ * @property \SONHH\eBaySDK\HalfFinding\Types\ProductIDType $productID
+ * @property \SONHH\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
+ * @property \SONHH\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
+ * @property \SONHH\eBaySDK\HalfFinding\Types\SortByType $sortBy
  */
-class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
+class FindItemsRequest extends \SONHH\eBaySDK\HalfFinding\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productID' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
+            'type' => 'SONHH\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productID'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationInputType',
+            'type' => 'SONHH\eBaySDK\HalfFinding\Types\PaginationInputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'
         ],
         'itemFilter' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
+            'type' => 'SONHH\eBaySDK\HalfFinding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFilter'
         ],
         'sortBy' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
+            'type' => 'SONHH\eBaySDK\HalfFinding\Types\SortByType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sortBy'

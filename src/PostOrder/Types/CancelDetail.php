@@ -8,50 +8,50 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace SONHH\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CancelActivityHistory[] $activityHistories
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $buyerResponseDueDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelCloseDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\CancelActivityHistory[] $activityHistories
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $buyerResponseDueDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $cancelCloseDate
  * @property string $cancelCloseReason
  * @property string $cancelId
  * @property string $cancelReason
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $cancelRequestDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $cancelRequestDate
  * @property string $itemId
  * @property string $legacyOrderId
- * @property \DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem[] $lineItems
- * @property \DTS\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \SONHH\eBaySDK\PostOrder\Types\OrderCancelLineItem[] $lineItems
+ * @property \SONHH\eBaySDK\PostOrder\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $paymentStatus
  * @property string $requestorType
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $requestRefundAmount
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $sellerResponseDueDate
- * @property \DTS\eBaySDK\PostOrder\Types\DateTime $shipmentDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\Amount $requestRefundAmount
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $sellerResponseDueDate
+ * @property \SONHH\eBaySDK\PostOrder\Types\DateTime $shipmentDate
  * @property string $cancelState
  * @property string $cancelStatus
  * @property string $transactionId
  */
-class CancelDetail extends \DTS\eBaySDK\Types\BaseType
+class CancelDetail extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'activityHistories' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CancelActivityHistory',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\CancelActivityHistory',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'activityHistories'
         ],
         'buyerResponseDueDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerResponseDueDate'
         ],
         'cancelCloseDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelCloseDate'
@@ -75,7 +75,7 @@ class CancelDetail extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'cancelReason'
         ],
         'cancelRequestDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelRequestDate'
@@ -93,7 +93,7 @@ class CancelDetail extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'legacyOrderId'
         ],
         'lineItems' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\OrderCancelLineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
@@ -117,19 +117,19 @@ class CancelDetail extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'requestorType'
         ],
         'requestRefundAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'requestRefundAmount'
         ],
         'sellerResponseDueDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sellerResponseDueDate'
         ],
         'shipmentDate' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\DateTime',
+            'type' => 'SONHH\eBaySDK\PostOrder\Types\DateTime',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipmentDate'

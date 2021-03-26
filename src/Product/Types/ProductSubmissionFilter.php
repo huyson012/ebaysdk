@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace SONHH\eBaySDK\Product\Types;
 
 /**
  *
  * @property string $filterName
  * @property string[] $filterValue
  */
-class ProductSubmissionFilter extends \DTS\eBaySDK\Types\BaseType
+class ProductSubmissionFilter extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \SONHH\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $CategoryID
  * @property string $Category2ID
  * @property string $CorrelationID
- * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property \SONHH\eBaySDK\Trading\Types\ErrorType[] $Errors
  * @property string $Message
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
- * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \SONHH\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \SONHH\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
  */
-class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
+class AddItemResponseContainerType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -49,7 +49,7 @@ class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'EndTime'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\FeesType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Fees'
@@ -73,7 +73,7 @@ class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CorrelationID'
         ],
         'Errors' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ErrorType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Errors'
@@ -91,7 +91,7 @@ class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DiscountReason'
         ],
         'ListingRecommendations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ListingRecommendationsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'

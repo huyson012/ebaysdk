@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfileType[] $SupportedSellerProfile
+ * @property \SONHH\eBaySDK\Trading\Types\SupportedSellerProfileType[] $SupportedSellerProfile
  */
-class SupportedSellerProfilesType extends \DTS\eBaySDK\Types\BaseType
+class SupportedSellerProfilesType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SupportedSellerProfile' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SupportedSellerProfileType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\SupportedSellerProfileType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SupportedSellerProfile'

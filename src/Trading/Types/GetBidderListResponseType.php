@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\UserType $Bidder
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $BidItemArray
+ * @property \SONHH\eBaySDK\Trading\Types\UserType $Bidder
+ * @property \SONHH\eBaySDK\Trading\Types\ItemArrayType $BidItemArray
  */
-class GetBidderListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetBidderListResponseType extends \SONHH\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Bidder' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Bidder'
         ],
         'BidItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidItemArray'

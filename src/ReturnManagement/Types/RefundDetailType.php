@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace SONHH\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\Amount $totalAmount
- * @property \DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType[] $itemizedRefund
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\Amount $totalAmount
+ * @property \SONHH\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType[] $itemizedRefund
  */
-class RefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class RefundDetailType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'totalAmount' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\Amount',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalAmount'
         ],
         'itemizedRefund' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType',
+            'type' => 'SONHH\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemizedRefund'

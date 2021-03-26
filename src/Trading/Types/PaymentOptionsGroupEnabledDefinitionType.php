@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class PaymentOptionsGroupEnabledDefinitionType extends \DTS\eBaySDK\Types\BaseType
+class PaymentOptionsGroupEnabledDefinitionType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

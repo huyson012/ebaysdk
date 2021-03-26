@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace SONHH\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\PropertyMetadata[] $propertyMetadata
- * @property \DTS\eBaySDK\ProductMetadata\Types\GroupProperties[] $groupProperties
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\PropertyMetadata[] $propertyMetadata
+ * @property \SONHH\eBaySDK\ProductMetadata\Types\GroupProperties[] $groupProperties
  * @property string $productMetadataVersion
  */
-class ProductMetadata extends \DTS\eBaySDK\Types\BaseType
+class ProductMetadata extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'propertyMetadata' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\PropertyMetadata',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\PropertyMetadata',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'propertyMetadata'
         ],
         'groupProperties' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\GroupProperties',
+            'type' => 'SONHH\eBaySDK\ProductMetadata\Types\GroupProperties',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'groupProperties'

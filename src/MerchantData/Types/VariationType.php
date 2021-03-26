@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $StartPrice
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $StartPrice
  * @property integer $Quantity
- * @property \DTS\eBaySDK\MerchantData\Types\NameValueListArrayType[] $VariationSpecifics
+ * @property \SONHH\eBaySDK\MerchantData\Types\NameValueListArrayType[] $VariationSpecifics
  * @property integer $UnitsAvailable
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $UnitCost
- * @property \DTS\eBaySDK\MerchantData\Types\SellingStatusType $SellingStatus
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $UnitCost
+ * @property \SONHH\eBaySDK\MerchantData\Types\SellingStatusType $SellingStatus
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
  * @property boolean $Delete
- * @property \DTS\eBaySDK\MerchantData\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \SONHH\eBaySDK\MerchantData\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
  * @property integer $WatchCount
  * @property string $PrivateNotes
- * @property \DTS\eBaySDK\MerchantData\Types\DiscountPriceInfoType $DiscountPriceInfo
- * @property \DTS\eBaySDK\MerchantData\Types\VariationProductListingDetailsType $VariationProductListingDetails
+ * @property \SONHH\eBaySDK\MerchantData\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property \SONHH\eBaySDK\MerchantData\Types\VariationProductListingDetailsType $VariationProductListingDetails
  */
-class VariationType extends \DTS\eBaySDK\Types\BaseType
+class VariationType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -41,7 +41,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'StartPrice' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
@@ -53,7 +53,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Quantity'
         ],
         'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListArrayType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\NameValueListArrayType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
@@ -65,13 +65,13 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'UnitsAvailable'
         ],
         'UnitCost' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UnitCost'
         ],
         'SellingStatus' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellingStatusType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\SellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'
@@ -95,7 +95,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Delete'
         ],
         'SellingManagerProductInventoryStatus' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SellingManagerProductInventoryStatusType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\SellingManagerProductInventoryStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductInventoryStatus'
@@ -113,13 +113,13 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PrivateNotes'
         ],
         'DiscountPriceInfo' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\DiscountPriceInfoType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\DiscountPriceInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DiscountPriceInfo'
         ],
         'VariationProductListingDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VariationProductListingDetailsType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\VariationProductListingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationProductListingDetails'

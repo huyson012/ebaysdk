@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Types;
+namespace SONHH\eBaySDK\Feedback\Types;
 
 /**
  *
  * @property \DateTime $dateFrom
  * @property \DateTime $dateTo
  */
-class DateRange extends \DTS\eBaySDK\Types\BaseType
+class DateRange extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

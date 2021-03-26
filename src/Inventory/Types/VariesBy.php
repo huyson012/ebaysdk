@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property string[] $aspectsImageVariesBy
- * @property \DTS\eBaySDK\Inventory\Types\Specification[] $specifications
+ * @property \SONHH\eBaySDK\Inventory\Types\Specification[] $specifications
  */
-class VariesBy extends \DTS\eBaySDK\Types\BaseType
+class VariesBy extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class VariesBy extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'aspectsImageVariesBy'
         ],
         'specifications' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Specification',
+            'type' => 'SONHH\eBaySDK\Inventory\Types\Specification',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'specifications'

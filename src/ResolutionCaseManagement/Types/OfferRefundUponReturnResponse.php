@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace SONHH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class OfferRefundUponReturnResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class OfferRefundUponReturnResponse extends \SONHH\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

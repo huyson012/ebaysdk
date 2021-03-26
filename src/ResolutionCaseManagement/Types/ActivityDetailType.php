@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace SONHH\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  */
-class ActivityDetailType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
+class ActivityDetailType extends \SONHH\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $SaleTemplateID
  * @property integer $ProductID
  * @property string $SaleTemplateName
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \SONHH\eBaySDK\Trading\Types\ItemType $Item
  * @property string[] $DeletedField
  * @property boolean $VerifyOnly
  */
-class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseSellingManagerTemplateRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -44,7 +44,7 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
             'elementName' => 'SaleTemplateName'
         ],
         'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'

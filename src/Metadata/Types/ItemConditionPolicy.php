@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Types;
+namespace SONHH\eBaySDK\Metadata\Types;
 
 /**
  *
  * @property string $categoryId
  * @property string $categoryTreeId
  * @property boolean $itemConditionRequired
- * @property \DTS\eBaySDK\Metadata\Types\ItemCondition[] $itemConditions
+ * @property \SONHH\eBaySDK\Metadata\Types\ItemCondition[] $itemConditions
  */
-class ItemConditionPolicy extends \DTS\eBaySDK\Types\BaseType
+class ItemConditionPolicy extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -42,7 +42,7 @@ class ItemConditionPolicy extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'itemConditionRequired'
         ],
         'itemConditions' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ItemCondition',
+            'type' => 'SONHH\eBaySDK\Metadata\Types\ItemCondition',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemConditions'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum $unit
+ * @property \SONHH\eBaySDK\Inventory\Enums\WeightUnitOfMeasureEnum $unit
  * @property double $value
  */
-class Weight extends \DTS\eBaySDK\Types\BaseType
+class Weight extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

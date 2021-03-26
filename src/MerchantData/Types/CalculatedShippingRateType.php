@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace SONHH\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $OriginatingPostalCode
- * @property \DTS\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PackagingHandlingCosts
+ * @property \SONHH\eBaySDK\MerchantData\Enums\MeasurementSystemCodeType $MeasurementUnit
+ * @property \SONHH\eBaySDK\MerchantData\Types\MeasureType $PackageDepth
+ * @property \SONHH\eBaySDK\MerchantData\Types\MeasureType $PackageLength
+ * @property \SONHH\eBaySDK\MerchantData\Types\MeasureType $PackageWidth
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $PackagingHandlingCosts
  * @property boolean $ShippingIrregular
- * @property \DTS\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $InternationalPackagingHandlingCosts
+ * @property \SONHH\eBaySDK\MerchantData\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property \SONHH\eBaySDK\MerchantData\Types\MeasureType $WeightMajor
+ * @property \SONHH\eBaySDK\MerchantData\Types\MeasureType $WeightMinor
+ * @property \SONHH\eBaySDK\MerchantData\Types\AmountType $InternationalPackagingHandlingCosts
  */
-class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
+class CalculatedShippingRateType extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,25 +43,25 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'MeasurementUnit'
         ],
         'PackageDepth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageDepth'
         ],
         'PackageLength' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageLength'
         ],
         'PackageWidth' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageWidth'
         ],
         'PackagingHandlingCosts' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackagingHandlingCosts'
@@ -79,19 +79,19 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShippingPackage'
         ],
         'WeightMajor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMajor'
         ],
         'WeightMinor' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMinor'
         ],
         'InternationalPackagingHandlingCosts' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'SONHH\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'InternationalPackagingHandlingCosts'

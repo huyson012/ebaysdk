@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace SONHH\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\EndItemRequestContainerType[] $EndItemRequestContainer
+ * @property \SONHH\eBaySDK\Trading\Types\EndItemRequestContainerType[] $EndItemRequestContainer
  */
-class EndItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class EndItemsRequestType extends \SONHH\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'EndItemRequestContainer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EndItemRequestContainerType',
+            'type' => 'SONHH\eBaySDK\Trading\Types\EndItemRequestContainerType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'EndItemRequestContainer'

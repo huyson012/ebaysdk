@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace SONHH\eBaySDK\Taxonomy\Types;
 
 /**
  *
  * @property string $category_tree_id
  */
-class GetACategoryTreeRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetACategoryTreeRestRequest extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace SONHH\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleDetailEnum $bundleDetailSelector
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $findAllByStatus
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter[] $bundleFilter
+ * @property \SONHH\eBaySDK\RelatedItemsManagement\Enums\BundleDetailEnum $bundleDetailSelector
+ * @property \SONHH\eBaySDK\RelatedItemsManagement\Enums\BundleStatusEnum $findAllByStatus
+ * @property \SONHH\eBaySDK\RelatedItemsManagement\Types\BundleFilter[] $bundleFilter
  */
-class FindBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest
+class FindBundlesRequest extends \SONHH\eBaySDK\RelatedItemsManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class FindBundlesRequest extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseR
             'elementName' => 'findAllByStatus'
         ],
         'bundleFilter' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleFilter',
+            'type' => 'SONHH\eBaySDK\RelatedItemsManagement\Types\BundleFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'bundleFilter'

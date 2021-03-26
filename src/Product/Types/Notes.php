@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace SONHH\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $noteDetails
+ * @property \SONHH\eBaySDK\Product\Types\PropertyValue[] $noteDetails
  */
-class Notes extends \DTS\eBaySDK\Types\BaseType
+class Notes extends \SONHH\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'noteDetails' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'SONHH\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'noteDetails'

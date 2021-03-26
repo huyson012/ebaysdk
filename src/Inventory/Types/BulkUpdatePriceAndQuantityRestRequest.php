@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace SONHH\eBaySDK\Inventory\Types;
 
 /**
  *
  */
-class BulkUpdatePriceAndQuantityRestRequest extends \DTS\eBaySDK\Inventory\Types\BulkPriceQuantity
+class BulkUpdatePriceAndQuantityRestRequest extends \SONHH\eBaySDK\Inventory\Types\BulkPriceQuantity
 {
     /**
      * @var array Properties belonging to objects of this class.
