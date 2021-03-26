@@ -30,6 +30,5 @@
         },
         "files": ["src/functions.php"]
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "stable"
 }
