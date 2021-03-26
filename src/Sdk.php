@@ -1,6 +1,7 @@
 <?php
 namespace SONHH\eBaySDK;
 
+
 /**
  * Builds SONHH\eBaySDK services based on passed configuration options.
  *
