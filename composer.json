@@ -1,0 +1,34 @@
+{
+    "name": "sonhh/ebay-sdk",
+    "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
+    "keywords": ["ebay", "api", "sdk"],
+    "homepage": "http://localhost.dev/",
+    "type": "library",
+    "license": "(Apache-2.0 and MIT)",
+    "authors": [
+        {
+            "name": "SonHH",
+            "email": "hahuyson@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/huyson012/ebaysdk/issues"
+    },
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle":  "^7.0.1",
+        "guzzlehttp/psr7": "^1.7",
+        "guzzlehttp/promises": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SONHH\\eBaySDK\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "minimum-stability": "stable"
+}
